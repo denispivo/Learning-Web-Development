@@ -11,9 +11,9 @@ In text editor, such as Microsoft Office Word or Writer, if you want to
 make text bold you select a part of text and click corresponding button
 (b). In HTML, you have tags for that reason.
 
-                ┌── a "selected" text ──┐
-                ↓                       ↓
-Lorem ipsum <tagname>dolor sit amet</tagname>, consectetur adipisicing elit.
+                    ┌── a "selected" text ──┐
+                    ↓                       ↓
+    Lorem ipsum <tagname>dolor sit amet</tagname>, consectetur adipisicing elit.
 
 Opening tags have a keyword, such as p, surrounded by angle brackets (<
 and >). For example, the tag <code><p></code> tells the browser the start a new
@@ -21,22 +21,28 @@ paragraph. Ending tags look almost exactly the same, only they have a
 forward slash (/) added just before the keyword. For example, the tag <code></p></code>
 tells the browser to end a paragraph.
 
-<p>this is a paragraph</p>
+    <p>this is a paragraph</p>
 
-  A small number of tags, like <code><br></code>, <code><img></code> and <code><hr></code>, can be used without an
-  ending tag. Here is what these tags do:
+A small number of tags, like <code><br></code>, <code><img></code> and <code><hr></code>, can be used without an
+ending tag. Here is what these tags do:
 
-   » <code><br></code> - produces a line break in text (carriage-return). It is useful
-     for writing a poem or an address, where the division of lines is
-     significant.
-   » <code><img></code> — represents an image in the document. We will consider this tag
-     later.
-   » <code><hr></code> — represents a thematic break between paragraph-level elements. In
-     previous versions of HTML, it represented a horizontal rule. It may
-     still be displayed as a horizontal rule in visual browsers.
+» <code><br></code> 
+    - produces a line break in text (carriage-return). It is useful
+    for writing a poem or an address, where the division of lines is
+    significant.
 
-  You could use them like this:
+» <code><img></code> 
+    — represents an image in the document. We will consider this tag
+    later.
 
-     <p>first paragraph</p>
-     <hr>
-     <p>second paragraph</p>
+» 
+    <code><hr></code> 
+    — represents a thematic break between paragraph-level elements. In
+    previous versions of HTML, it represented a horizontal rule. It may
+    still be displayed as a horizontal rule in visual browsers.
+
+You could use them like this:
+
+    <p>first paragraph</p>
+    <hr>
+    <p>second paragraph</p>

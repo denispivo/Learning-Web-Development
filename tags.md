@@ -16,22 +16,22 @@
      Lorem ipsum <tagname>dolor sit amet</tagname>, consectetur adipisicing elit.
 
   Opening tags have a keyword, such as p, surrounded by angle brackets (<
-  and >). For example, the tag <p> tells the browser the start a new
+  and >). For example, the tag <!--<p>//--> tells the browser the start a new
   paragraph. Ending tags look almost exactly the same, only they have a
-  forward slash (/) added just before the keyword. For example, the tag </p>
+  forward slash (/) added just before the keyword. For example, the tag <!--<p>//-->
   tells the browser to end a paragraph.
 
      <p>this is a paragraph</p>
 
-  A small number of tags, like <br>, <img> and <hr>, can be used without an
+  A small number of tags, like <!--<br>//-->, <!--<img>//--> and <!--<hr>//-->, can be used without an
   ending tag. Here is what these tags do:
 
-   » <br> - produces a line break in text (carriage-return). It is useful
+   » <!--<br>//--> - produces a line break in text (carriage-return). It is useful
      for writing a poem or an address, where the division of lines is
      significant.
-   » <img> — represents an image in the document. We will consider this tag
+   » <!--<img>//--> — represents an image in the document. We will consider this tag
      later.
-   » <hr> — represents a thematic break between paragraph-level elements. In
+   » <!--<hr>//--> — represents a thematic break between paragraph-level elements. In
      previous versions of HTML, it represented a horizontal rule. It may
      still be displayed as a horizontal rule in visual browsers.
 

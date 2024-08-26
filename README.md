@@ -16,6 +16,8 @@ Usefull Links:
 
 - [webside](https://github.com/impress/impress.js) made to show that an html side can be a presentation (not mine)
 
+## All upcoming tags are tested in the test.html file
+
 ## Elements
 
 - `<html>` -> Defines the root of an HTML document
@@ -32,3 +34,32 @@ Usefull Links:
 - The `style` attribute is used to add styles to an element, such as color, font, size, and more
 - The `lang` attribute of the `<html>` tag declares the language of the Web page
 - The `title` attribute defines some extra information about an element
+
+## Paragraphs
+
+- `<p>` -> Defines a paragraph
+- `<hr>` -> Defines a thematic change in the content
+- `<br>` -> Inserts a single line break
+- `<pre>` -> Denies a pre-formatted text
+
+## Styles
+
+- Use the `style` attribute for styling HTML elements
+- Use `background-color` for background color
+- Use `color` for text colors
+- Use `font-family` for text fonts
+- Use `font-size` for text sizes
+- Use `text-align` for text alignment
+
+## Formatting
+
+- `<b>` -> Defines bold text
+- `<em>` -> Defines emphasized text 
+- `<i>` -> Defines a part of text in an alternate voice or mood
+- `<small>` -> Defines smaller text
+- `<strong>` -> Defines important text
+- `<sub>` -> Defines subscripted text
+- `<sup>` -> Defines superscripted text
+- `<ins>` -> Defines inserted text
+- `<del>` -> Defines deleted text
+- `<mark>` -> Defines marked/highlighted text

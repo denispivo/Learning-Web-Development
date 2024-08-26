@@ -24,7 +24,7 @@ Usefull Links:
 
 ## Attributes
 
-- All HTML elements can have *attributes*
+- All HTML elements can have **attributes**
 - The `href` attribute of `<a>` specifies the URL of the page the link goes to
 - The `src` attribute of `<img>` specifies the path to the image to be displayed
 - The `width` and height attributes of `<img>` provide size information for images

@@ -56,7 +56,7 @@ Usefull Links:
 - `<b>` -> Defines bold text, without any extra importance
 - `<strong>` -> Defines important text, content is typically in bold
 - `<i>` -> Defines a part of text in an alternate voice or mood, content inside is typically displayed in italic
-    => Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
+    <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
 - `<em>` -> Defines emphasized text, content inside is typically displayed in italic
     => Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
 - `<small>` -> Defines smaller text

@@ -54,8 +54,8 @@ Usefull Links:
 ## Formatting
 
 - `<b>` 
-    -> Defines bold text
-    -> without any extra importance
+    <br>-> Defines bold text
+    <br>-> without any extra importance
 - `<strong>` 
     -> Defines important text
     -> content is typically in bold

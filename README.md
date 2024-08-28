@@ -53,8 +53,12 @@ Usefull Links:
 
 ## Formatting
 
-- `<b>` -> Defines bold text, without any extra importance
-- `<strong>` -> Defines important text, content is typically in bold
+- `<b>` 
+    -> Defines bold text
+    -> without any extra importance
+- `<strong>` 
+    -> Defines important text
+    -> content is typically in bold
 - `<i>` -> Defines a part of text in an alternate voice or mood, content inside is typically displayed in italic
     <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
 - `<em>` -> Defines emphasized text, content inside is typically displayed in italic
@@ -65,3 +69,5 @@ Usefull Links:
 - `<ins>` -> Defines text, that has been inserted into a document, browsers will usually underline inserted text
 - `<sub>` -> Defines subscripted text, appears half a character below the normal line and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H<sub>2</sub>O
 - `<sup>` -> Defines superscripted text, appears half a character above the normal line and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW<sup>[1]</sup>
+
+## Quotation and Citation

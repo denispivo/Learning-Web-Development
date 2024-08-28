@@ -58,7 +58,7 @@ Usefull Links:
 - `<i>` -> Defines a part of text in an alternate voice or mood, content inside is typically displayed in italic
     <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
 - `<em>` -> Defines emphasized text, content inside is typically displayed in italic
-    => Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
+    <br>=> Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
 - `<small>` -> Defines smaller text
 - `<mark>` -> Defines marked/highlighted text
 - `<del>` -> Defines text, that has been deleted from a document, browsers will usually strike a line through deleted text

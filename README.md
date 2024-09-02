@@ -18,7 +18,7 @@ Usefull Links:
 
 ## All upcoming tags are tested in the test.html file
 
-## Elements
+## [Elements](https://github.com/denispivo/Learn-HTML/blob/master/Tutorial/tutorial.md#elements)
 
 - `<html>` -> Defines the root of an HTML document
 - `<body>` -> Defines the document's body

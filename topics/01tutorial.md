@@ -42,7 +42,7 @@
 |`<b>`|-> Defines bold text <br>-> without any extra importance|
 |`<strong>`|-> Defines important text <br>-> content is typically in bold|
 |`<i>`|-> Defines a part of text in an alternate voice or mood <br>-> content inside is typically displayed in italic <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.|
-|   |   |
+|`<em>`|- `<em>` -> Defines emphasized text <br>-> content inside is typically displayed in italic <br>=> Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.|
 |   |   |
 |   |   |
 |   |   |
@@ -50,13 +50,7 @@
 |   |   |
 |   |   |
 
-
-- `<i>` -> Defines a part of text in an alternate voice or mood
-    <br>-> content inside is typically displayed in italic
-    <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
-- `<em>` -> Defines emphasized text
-    <br>-> content inside is typically displayed in italic
-    <br>=> Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
+- `<em>` -> Defines emphasized text <br>-> content inside is typically displayed in italic <br>=> Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
 - `<small>` -> Defines smaller text
 - `<mark>` -> Defines marked/highlighted text
 - `<del>` -> Defines text, that has been deleted from a document

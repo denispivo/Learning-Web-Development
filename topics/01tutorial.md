@@ -39,14 +39,18 @@
 
 |element|description|
 |---|---|
-|`<b>`|-> Defines bold text -> without any extra importance|
+|`<b>`|-> Defines bold text <br>-> without any extra importance|
+|`<strong>`|-> Defines important text <br>-> content is typically in bold|
+|`<i>`|-> Defines a part of text in an alternate voice or mood <br>-> content inside is typically displayed in italic <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
 |   |   |
 |   |   |
 
-- `<b>` -> Defines bold text
-    <br>-> without any extra importance
-- `<strong>` -> Defines important text
-    <br>-> content is typically in bold
+
 - `<i>` -> Defines a part of text in an alternate voice or mood
     <br>-> content inside is typically displayed in italic
     <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.

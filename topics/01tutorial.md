@@ -37,6 +37,13 @@
 
 ## Formatting
 
+|element|description|
+|---|---|
+|`<b>`|-> Defines bold text
+    <br>-> without any extra importance|
+|   |   |
+|   |   |
+
 - `<b>` -> Defines bold text
     <br>-> without any extra importance
 - `<strong>` -> Defines important text

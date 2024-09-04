@@ -1,10 +1,6 @@
 # Tutorial
 
-All upcoming tags are tested in the test.html file
-
-|element|description|
-|---|---|
-|||
+All upcoming topics are tested in the test.html file
 
 ## Elements
 
@@ -24,8 +20,8 @@ All HTML elements can have **attributes**
 |`<img>`|`src`|Specifies the path to the image to be displayed|
 |`<img>`|`width` and `height`|Provide size information for images|
 |`<img>`|`alt`|Provides an alternate text for an image|
-||`style`|Attribute is used to add styles to an element, such as color, font, size, and more|
 |`<html>`|`lang`|Tag declares the language of the Web page|
+||`style`|Attribute is used to add styles to an element, such as color, font, size, and more|
 ||`title`|Attribute defines some extra information about an element|
 
 ## Paragraphs
@@ -73,3 +69,34 @@ All HTML elements can have **attributes**
 |`<address>`|- tag defines the contact information for the author/owner of a document or an article <br> - The contact information can be an email address, URL, physical address, phone number, social media handle, etc <br> -> usually renders in italic, and browsers will always add a line break before and after the `<address>` element|
 |`<cite>`|- tag defines the title of a creative work|
 |`<bdo>`|- Bi-Directional Override <br>- this tag is used to override the current text direction|
+
+## Comments
+
+Comments exist to give more information to the written code. Use it to describe your code, so that you and your team can easily understand later what the code does.
+
+This is ho to write a comment in HTML:
+
+```HTML code
+<!-- This is a comment -->
+
+<p>This is a paragraph.</p>
+```
+
+Use comments to hide content to test bugs.
+
+```HTML code
+<p>This is a paragraph.</p>
+
+<!-- <p>This is another paragraph </p> -->
+
+<p>This is a paragraph too.</p> 
+```
+
+|element|description|
+|---|---|
+|||
+|||
+|||
+|||
+|||
+|||

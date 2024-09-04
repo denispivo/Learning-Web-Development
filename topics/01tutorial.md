@@ -10,13 +10,24 @@ All upcoming tags are tested in the test.html file
 
 |element|description|
 |---|---|
-|`<html>`|-> Defines the root of an HTML document|
-|`<body>`|-> Defines the document's body|
-|`<h1>` to `<h6>`|-> Defines HTML headings|
+|`<html>`|Defines the root of an HTML document|
+|`<body>`|Defines the document's body|
+|`<h1>` to `<h6>`|Defines HTML headings|
 
 ## Attributes
 
-- All HTML elements can have **attributes**
+All HTML elements can have **attributes**
+
+|element|attribute|description|
+|---|---|---|
+|`<a>`|`href`|Specifies the URL of the page the link goes to|
+||||
+||||
+||||
+||||
+||||
+||||
+
 - The `href` attribute of `<a>` specifies the URL of the page the link goes to
 - The `src` attribute of `<img>` specifies the path to the image to be displayed
 - The `width` and height attributes of `<img>` provide size information for images
@@ -29,21 +40,21 @@ All upcoming tags are tested in the test.html file
 
 |element|description|
 |---|---|
-|`<p>`|-> Defines a paragraph|
-|`<hr>`|-> Defines a thematic change in the content|
-|`<br>`|-> Inserts a single line break|
-|`<pre>`|-> Denies a pre-formatted text|
+|`<p>`|Defines a paragraph|
+|`<hr>`|Defines a thematic change in the content|
+|`<br>`|Inserts a single line break|
+|`<pre>`|Denies a pre-formatted text|
 
 ## Styles
 
 |element|description|
 |---|---|
-|`style`|-> Used for styling HTML elements|
-|`background-color`|-> Used for background color|
-|`color`|-> Used for text color|
-|`font-family`|-> Used for text fonts|
-|`font-size`|-> Used for text sizes|
-|`text-align`|-> Used for text alignment (top/bottom/left/right/center)|
+|`style`|Used for styling HTML elements|
+|`background-color`|Used for background color|
+|`color`|Used for text color|
+|`font-family`|Used for text fonts|
+|`font-size`|Used for text sizes|
+|`text-align`|Used for text alignment (top/bottom/left/right/center)|
 
 ## Formatting
 
@@ -58,7 +69,8 @@ All upcoming tags are tested in the test.html file
 |`<del>`|-> Defines text, that has been deleted from a document <br>-> browsers will usually strike a line through deleted text|
 |`<ins>`|-> Defines text, that has been inserted into a document <br>-> browsers will usually underline inserted text|
 |`<sub>`|-> Defines subscripted text <br>-> appears half a character below the normal line and is sometimes rendered in a smaller font <br>=> Subscript text can be used for chemical formulas, like H<sub>2</sub>O|
-|`<sup>`|-> Defines superscripted text <br>-> appears half a character above the normal line and is sometimes rendered in a smaller font <br>=> Superscript text can be used for footnotes, like WWW<sup>[1]</sup>|
+|`<sup>`|-> Defines superscripted text 
+            <br>-> appears half a character above the normal line and is sometimes rendered in a smaller font <br>=> Superscript text can be used for footnotes, like WWW<sup>[1]</sup>|
 
 ## Quotation and Citation
 

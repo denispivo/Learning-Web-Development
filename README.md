@@ -2,7 +2,7 @@
  
 Here I´m learning HTML.
 
-1. [Tutorial](/topics/01tutorial.md#tutorial)
+1. [Tutorial](/topics/01tutorial.md)
 2. 
 3. 
 

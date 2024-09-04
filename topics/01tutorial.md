@@ -10,7 +10,7 @@ All upcoming topics are tested in the test.html file
 5. [Formatting](#formatting)
 6. [Quotation and Citation](#quotation-and-citation)
 7. [Comments](#comments)
-8. []()
+8. [Colors](#colors)
 9. []()
 10. []()
 11. []()
@@ -108,6 +108,7 @@ Use comments to hide content to test the code when an bug occurs:
 
 <p>This is a paragraph too.</p> 
 ```
+## Colors
 
 |element|description|
 |---|---|

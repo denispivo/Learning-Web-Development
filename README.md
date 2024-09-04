@@ -2,7 +2,7 @@
  
 Here I´m learning HTML.
 
-1. [Tutorial](https://github.com/denispivo/Learn-HTML/blob/master/topics/01tutorial.md#tutorial)
+1. [Tutorial](01tutorial.md#topic)
 2. 
 3. 
 

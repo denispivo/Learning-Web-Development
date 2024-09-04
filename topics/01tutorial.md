@@ -2,13 +2,13 @@
 
 All upcoming topics are tested in the test.html file
 
-1. [Elements](#Elements)
-2. [Attributes]()
-3. [Paragraphs]()
-4. [Styles]()
-5. [Formatting]()
-6. [Quotation and Citation]()
-7. [Comments]()
+1. [Elements](#elements)
+2. [Attributes](#attributes)
+3. [Paragraphs](#paragraphs)
+4. [Styles](#styles)
+5. [Formatting](#formatting)
+6. [Quotation and Citation](#quotation-and-citation)
+7. [Comments](#comments)
 8. []()
 9. []()
 10. []()

@@ -2,11 +2,17 @@
 
 ## All upcoming tags are tested in the test.html file
 
+|element|description|
+|---|---|
+|||
+
 ## Elements
 
-- `<html>` -> Defines the root of an HTML document
-- `<body>` -> Defines the document's body
-- `<h1>` to `<h6>` -> Defines HTML headings
+|element|description|
+|---|---|
+|`<html>`|-> Defines the root of an HTML document|
+|`<body>`|-> Defines the document's body|
+|`<h1>` to `<h6>`|-> Defines HTML headings|
 
 ## Attributes
 
@@ -21,19 +27,23 @@
 
 ## Paragraphs
 
-- `<p>` -> Defines a paragraph
-- `<hr>` -> Defines a thematic change in the content
-- `<br>` -> Inserts a single line break
-- `<pre>` -> Denies a pre-formatted text
+|element|description|
+|---|---|
+|`<p>`|-> Defines a paragraph|
+|`<hr>`|-> Defines a thematic change in the content|
+|`<br>`|-> Inserts a single line break|
+|`<pre>`|-> Denies a pre-formatted text|
 
 ## Styles
 
-- Use the `style` attribute for styling HTML elements
-- Use `background-color` for background color
-- Use `color` for text colors
-- Use `font-family` for text fonts
-- Use `font-size` for text sizes
-- Use `text-align` for text alignment
+|element|description|
+|---|---|
+|`style`|-> Used for styling HTML elements|
+|`background-color`|-> Used for background color|
+|`color`|-> Used for text color|
+|`font-family`|-> Used for text fonts|
+|`font-size`|-> Used for text sizes|
+|`text-align`|-> Used for text alignment (top/bottom/left/right/center)|
 
 ## Formatting
 
@@ -52,14 +62,12 @@
 
 ## Quotation and Citation
 
-- `<blockquote>` -> element defines a section that is quoted from another source
-- `<q>` -> tag defines a short quotation
-- `<abbr>` -> tag defines an abbreviation or an acronym
-    <br>-> Marking abbreviations can give useful information to browsers, translation systems and search-engines
-    <br>=> Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.
-- `<address>` -> tag defines the contact information for the author/owner of a document or an article
-    <br> -> The contact information can be an email address, URL, physical address, phone number, social media handle, etc
-    <br> -> usually renders in italic, and browsers will always add a line break before and after the `<address>` element
-- `<cite>` -> tag defines the title of a creative work
-- `<bdo>` -> Bi-Directional Override
-    -> this tag is used to override the current text direction
+|element|description|
+|---|---|
+|`<blockquote>`|-> element defines a section that is quoted from another source|
+|`<q>`|-> tag defines a short quotation|
+|`<abbr>`|-> tag defines an abbreviation or an acronym <br>-> Marking abbreviations can give useful information to browsers, translation systems and search-engines <br>=> Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.|
+|`<address>`|-> tag defines the contact information for the author/owner of a document or an article <br> -> The contact information can be an email address, URL, physical address, phone number, social media handle, etc <br> -> usually renders in italic, and browsers will always add a line break before and after the `<address>` element|
+|`<cite>`|-> tag defines the title of a creative work|
+|`<bdo>`|-> Bi-Directional Override
+    -> this tag is used to override the current text direction|

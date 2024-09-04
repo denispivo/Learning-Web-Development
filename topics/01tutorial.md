@@ -21,20 +21,12 @@ All HTML elements can have **attributes**
 |element|attribute|description|
 |---|---|---|
 |`<a>`|`href`|Specifies the URL of the page the link goes to|
-||||
-||||
-||||
-||||
-||||
-||||
-
-- The `href` attribute of `<a>` specifies the URL of the page the link goes to
-- The `src` attribute of `<img>` specifies the path to the image to be displayed
-- The `width` and height attributes of `<img>` provide size information for images
-- The `alt` attribute of `<img>` provides an alternate text for an image
-- The `style` attribute is used to add styles to an element, such as color, font, size, and more
-- The `lang` attribute of the `<html>` tag declares the language of the Web page
-- The `title` attribute defines some extra information about an element
+|`<img>`|`src`|Specifies the path to the image to be displayed|
+|`<img>`|`width` and `height`|Provide size information for images|
+|`<img>`|`alt`|Provides an alternate text for an image|
+||`style`|Attribute is used to add styles to an element, such as color, font, size, and more|
+|`<html>`|`lang`|Tag declares the language of the Web page|
+||`title`|Attribute defines some extra information about an element|
 
 ## Paragraphs
 

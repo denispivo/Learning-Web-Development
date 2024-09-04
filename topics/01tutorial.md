@@ -2,7 +2,7 @@
 
 All upcoming topics are tested in the test.html file
 
-1. [Elements](#elements){data-preview}
+1. [Elements](#elements){ data-preview }
 2. [Attributes](#attributes)
 3. [Paragraphs](#paragraphs)
 4. [Styles](#styles)

@@ -2,6 +2,22 @@
 
 All upcoming topics are tested in the test.html file
 
+1. [Elements](#Elements)
+2. [Attributes]()
+3. [Paragraphs]()
+4. [Styles]()
+5. [Formatting]()
+6. [Quotation and Citation]()
+7. [Comments]()
+8. []()
+9. []()
+10. []()
+11. []()
+12. []()
+13. []()
+14. []()
+15. []()
+
 ## Elements
 
 |element|description|
@@ -82,7 +98,7 @@ This is ho to write a comment in HTML:
 <p>This is a paragraph.</p>
 ```
 
-Use comments to hide content to test bugs.
+Use comments to hide content to test the code when an bug occurs:
 
 ```HTML code
 <p>This is a paragraph.</p>

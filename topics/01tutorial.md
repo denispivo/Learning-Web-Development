@@ -110,6 +110,37 @@ Use comments to hide content to test the code when an bug occurs:
 ```
 ## Colors
 
+Colors are predefindes with color names, RGB, HEX, HSL, RGBA or HSLA values.
+
+### Color names
+
+Examples:
+- Tomato
+- Orange
+- DodgerBlue
+- MediumSeaGreen
+- Gray
+- SlateBlue
+- Violet
+- LightGray
+
+HTML supports [140 standard color names](https://www.w3schools.com/colors/colors_names.asp).
+
+### Background Color
+
+You can set the background color for HTML elements with `style="background-color:___"`
+Example: `<h1 style="background-color:DodgerBlue;">Hello World</h1>`
+
+### Text Color
+
+You can set the Text color with `style="color:___"`
+Example: `<h1 style="color:Tomato;">Hello World</h1>`
+
+### Border Color
+
+You can set the color of borders with `style="border:__ __ __"`
+Example: `<h1 style="border:2px solid Tomato;">Hello World</h1>`
+
 |element|description|
 |---|---|
 |||

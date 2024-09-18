@@ -11,7 +11,7 @@ All upcoming topics are tested in the test.html file
 6. [Quotation and Citation](#quotation-and-citation)
 7. [Comments](#comments)
 8. [Colors](#colors)
-9. []()
+9. [HTML RGB and RGBA Colors](#html-rgb-and-rgba-colors)
 10. []()
 11. []()
 12. []()
@@ -108,6 +108,7 @@ Use comments to hide content to test the code when an bug occurs:
 
 <p>This is a paragraph too.</p> 
 ```
+
 ## Colors
 
 Colors are predefindes with color names, RGB, HEX, HSL, RGBA or HSLA values.
@@ -140,6 +141,46 @@ Example: `<h1 style="color:Tomato;">Hello World</h1>`
 
 You can set the color of borders with `style="border:__ __ __"`
 Example: `<h1 style="border:2px solid Tomato;">Hello World</h1>`
+
+### Color Values
+
+In HTML colors can also be specified using RGB, HEX, HSL, RGBA and HSLA values.
+
+|Value Type|Example|HTML Example|
+|---|---|---|
+|RGB|`rbg(255, 99 ,71)`|`<h1 style="background-color:rgb(255, 99, 71);">...</h1>`|
+|HEX|`#ff6347`|`<h1 style="background-color:#ff6347;">...</h1>`|
+|HSL|`hsl(9, 100%, 64%)`|`<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>`|
+|RGBA|`rgba(255, 99 , 71, 0.5)` <br> -> 50% transparency|`<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>`|
+|HSLA|`hsla(9, 100%, 64%, 0.5)` <br> -> 50% transparency|`<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>`|
+
+### RGB and RGBA Colors
+
+RGB = (RED, GREEN, BLUE)
+
+- every value can be between 0 and 255
+
+RGBA = (RED, GREEN, BLUE, {alpha channel})
+
+- the same as RGB, but with an extra alpha value
+
+### HEX Colors
+
+HEX = #rrggbb (#red green blue)
+
+- every hexadecimal value can be between 0 and 15, with {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}
+
+### HSL and HSLA Colors
+
+HSL = (hue, saturation, lightness)
+
+- hue is a degree on the color wheel, from 0 to 360 (0 = red; 120 = green; 240 = blue;)
+- saturation is a percentage value (0% = shades of gray; 100% = full color;)
+- lightness is also a percentage value (0% = black; 100% = white;)
+
+HSLA = (hue, saturation, lightness, alpha)
+
+- the same as HSL, but with an extra alpha value
 
 |element|description|
 |---|---|

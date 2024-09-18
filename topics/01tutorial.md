@@ -11,7 +11,7 @@ All upcoming topics are tested in the test.html file
 6. [Quotation and Citation](#quotation-and-citation)
 7. [Comments](#comments)
 8. [Colors](#colors)
-9. [HTML RGB and RGBA Colors](#html-rgb-and-rgba-colors)
+9. [HTML Styles - CSS](#html-styles---css)
 10. []()
 11. []()
 12. []()
@@ -181,6 +181,90 @@ HSL = (hue, saturation, lightness)
 HSLA = (hue, saturation, lightness, alpha)
 
 - the same as HSL, but with an extra alpha value
+
+## HTML Styles - CSS
+
+CSS = Cascading Style Sheets
+
+CSS is used to format the layout of multiple web pages all at once.
+
+### Using CSS
+
+CSS can be added to HTML documents in 3 ways:
+
+|Type|Attribute|Description|
+|---|---|---|
+|Inline|`style`|Using thins inside HTML elements|
+|Internal|`<style>`|Using this element in the `<head>` section|
+|External|`<link>`|Using this element to link to external CSS files|
+
+=> The most common way to use CSS is by writing the styles in an external CSS files.
+
+### Inline CSS
+
+Example:
+
+```HTML
+<h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p> 
+```
+
+### Internal CSS
+
+Example:
+
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {background-color: powderblue;}
+            h1   {color: blue;}
+            p    {color: red;}
+        </style>
+    </head>
+    <body>
+
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+
+    </body>
+</html> 
+```
+
+### External CSS
+
+Example:
+
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+
+    </body>
+</html> 
+```
+
+"styles.css":
+
+```CSS
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}
+```
 
 |element|description|
 |---|---|

@@ -2,7 +2,7 @@
  
 Here I´m learning HTML.
 
-1. [Tutorial](/topics/01tutorial.md)
+- [Tutorial](/topics/01tutorial.md)
     - [Elements](/topics/01tutorial.md/#elements)
     - [Attributes](/topics/01tutorial.md/#attributes)
     - [Paragraphs](/topics/01tutorial.md/#paragraphs)
@@ -10,7 +10,6 @@ Here I´m learning HTML.
     - [Formatting](/topics/01tutorial.md/#formatting)
     - [Quotation and Citation](/topics/01tutorial.md/#quotation-and-citation)
     - [Comments](/topics/01tutorial.md/#comments)
-2. 
 
 Usefull Links:
 

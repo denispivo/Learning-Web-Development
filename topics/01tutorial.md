@@ -1,27 +1,27 @@
 # Tutorial
-[go back](/README.md)
+[go back to REDME.md](/README.md)
 
 All upcoming topics are tested in the test.html file
 
-1. [Elements](#elements)
-2. [Attributes](#attributes)
-3. [Paragraphs](#paragraphs)
-4. [Styles](#styles)
-5. [Formatting](#formatting)
-6. [Quotation and Citation](#quotation-and-citation)
-7. [Comments](#comments)
-8. [Colors](#colors)
-9. [HTML Styles - CSS](#html-styles---css)
-10. []()
-11. []()
-12. []()
-13. []()
-14. []()
-15. []()
+- [Elements](#elements)
+- [Attributes](#attributes)
+- [Paragraphs](#paragraphs)
+- [Styles](#styles)
+- [Formatting](#formatting)
+- [Quotation and Citation](#quotation-and-citation)
+- [Comments](#comments)
+- [Colors](#colors)
+- [HTML Styles - CSS](#html-styles---css)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
 
 ## Elements
 
-|element|description|
+|Element|Description|
 |---|---|
 |`<html>`|Defines the root of an HTML document|
 |`<body>`|Defines the document's body|
@@ -31,7 +31,7 @@ All upcoming topics are tested in the test.html file
 
 All HTML elements can have **attributes**
 
-|element|attribute|description|
+|Element|Attribute|Description|
 |---|---|---|
 |`<a>`|`href`|Specifies the URL of the page the link goes to|
 |`<img>`|`src`|Specifies the path to the image to be displayed|
@@ -43,7 +43,7 @@ All HTML elements can have **attributes**
 
 ## Paragraphs
 
-|element|description|
+|Element|Description|
 |---|---|
 |`<p>`|Defines a paragraph|
 |`<hr>`|Defines a thematic change in the content|
@@ -52,7 +52,7 @@ All HTML elements can have **attributes**
 
 ## Styles
 
-|element|description|
+|Element|Description|
 |---|---|
 |`style`|Used for styling HTML elements|
 |`background-color`|Used for background color|
@@ -63,7 +63,7 @@ All HTML elements can have **attributes**
 
 ## Formatting
 
-|element|description|
+|Element|Description|
 |---|---|
 |`<b>`|- Defines bold text <br>- without any extra importance|
 |`<strong>`|- Defines important text <br>- content is typically in bold|
@@ -78,7 +78,7 @@ All HTML elements can have **attributes**
 
 ## Quotation and Citation
 
-|element|description|
+|Element|Description|
 |---|---|
 |`<blockquote>`|- element defines a section that is quoted from another source|
 |`<q>`|- tag defines a short quotation|
@@ -266,13 +266,70 @@ p {
 }
 ```
 
-|element|description|
-|---|---|
-|||
-|||
-|||
-|||
-|||
-|||
+### CSS Colors, Fonts and Sizes
 
-[go back](/README.md)
+|Element|Description|
+|---|---|
+|`color`|Defines the text color|
+|`font-family`|Defines the font|
+|`font-size`|Defines the text size|
+
+Example:
+
+```HTML
+ <!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                color: blue;
+                font-family: verdana;
+                font-size: 300%;
+            }
+            p {
+                color: red;
+                font-family: courier;
+                font-size: 160%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+
+    </body>
+</html> 
+```
+
+### CSS Border, Padding, Margin
+
+|Property|Description|HTML Example|
+|---|---|---|
+|`border`|Defines a border around HTMl elements|<code>p { <br> &nbsp; border: 2px solid powderblue; <br> }</code>|
+|`padding`|Defines a padding (space) between the text and the border|<code>p { <br> &nbsp; border: 2px solid powderblue; <br> &nbsp; padding: 30px; <br> }</code>|
+|`margin`|Defines a margin (space) outside the border|<code>p { <br> &nbsp; border: 2px solid powderblue; <br> &nbsp; margin: 50px; <br> }</code>|
+
+### Link to External CSS
+
+External CSS can be referenced with a full URL or with a path relative to the current web page.
+
+Example with full URL:
+
+```HTML
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> 
+```
+
+Example with a style sheet located in the html folder on the current web site:
+
+```HTML
+<link rel="stylesheet" href="/html/styles.css">
+```
+
+Example with a style sheet located in the same folder as the page:
+
+```HTML
+<link rel="stylesheet" href="styles.css">
+```
+
+[go back to REDME.md](/README.md)

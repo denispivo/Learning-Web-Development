@@ -10,6 +10,8 @@ Here I´m learning HTML.
     - [Formatting](/topics/01tutorial.md/#formatting)
     - [Quotation and Citation](/topics/01tutorial.md/#quotation-and-citation)
     - [Comments](/topics/01tutorial.md/#comments)
+    - [Colors](/topics/01tutorial.md/#colors)
+    - [HTML Styles - CSS](/topics/01tutorial.md/#html-styles---css)
 
 Usefull Links:
 

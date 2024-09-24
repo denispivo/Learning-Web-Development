@@ -1,6 +1,6 @@
 # Learn HTML
  
-Here I´m learning HTML.
+Here I´m learning HTML and CSS.
 
 - [Tutorial](/topics/01tutorial.md)
     - [Elements](/topics/01tutorial.md/#elements)

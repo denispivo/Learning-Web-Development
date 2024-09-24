@@ -2,17 +2,21 @@
  
 Here I´m learning HTML and CSS.
 
-- [Tutorial](/topics/01tutorial.md)
-    - [Elements](/topics/01tutorial.md/#elements)
-    - [Attributes](/topics/01tutorial.md/#attributes)
-    - [Paragraphs](/topics/01tutorial.md/#paragraphs)
-    - [Styles](/topics/01tutorial.md/#styles)
-    - [Formatting](/topics/01tutorial.md/#formatting)
-    - [Quotation and Citation](/topics/01tutorial.md/#quotation-and-citation)
-    - [Comments](/topics/01tutorial.md/#comments)
-    - [Colors](/topics/01tutorial.md/#colors)
-    - [Styles - CSS](/topics/01tutorial.md/#styles---css)
-    - [Links](/topics/01tutorial.md/#links)
+## HTML
+
+Starting with HTML and basics of CSS.
+
+- [Tutorial](/topics-HTML/01tutorial.md)
+    - [Elements](/topics-HTML/01tutorial.md/#elements)
+    - [Attributes](/topics-HTML/01tutorial.md/#attributes)
+    - [Paragraphs](/topics-HTML/01tutorial.md/#paragraphs)
+    - [Styles](/topics-HTML/01tutorial.md/#styles)
+    - [Formatting](/topics-HTML/01tutorial.md/#formatting)
+    - [Quotation and Citation](/topics-HTML/01tutorial.md/#quotation-and-citation)
+    - [Comments](/topics-HTML/01tutorial.md/#comments)
+    - [Colors](/topics-HTML/01tutorial.md/#colors)
+    - [Styles - CSS](/topics-HTML/01tutorial.md/#styles---css)
+    - [Links](/topics-HTML/01tutorial.md/#links)
 
 Usefull Links:
 

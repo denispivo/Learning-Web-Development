@@ -370,4 +370,27 @@ By default, links are...
 
 ### The target Attribute
 
+By default the link will open in the current browser window.
+
+The `target` attribute specifies where to open the linked document.
+
+Values you can set of `target`:
+
+|Value|Definition|
+|---|---|
+|`_self`|Default, opens in the same window/tab.|
+|`_blank`|Opens in a new window/tab.|
+|`_parent`|Opens in the parent frame. Does what is defined in the parent frame.|
+|`_top`|Opens in the full body of window. Does what is defined in the top frame.|
+
+=> Go read Iframe to know how frames work. (not done yet)
+
+Example:
+
+```HTML
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
+```
+
+### URLs vs. Relative URLs
+
 [go back to REDME.md](/README.md)

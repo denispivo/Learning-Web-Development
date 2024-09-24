@@ -1,4 +1,5 @@
 # Tutorial
+
 [go back to REDME.md](/README.md)
 
 All upcoming topics are tested in the test.html file
@@ -11,8 +12,8 @@ All upcoming topics are tested in the test.html file
 - [Quotation and Citation](#quotation-and-citation)
 - [Comments](#comments)
 - [Colors](#colors)
-- [HTML Styles - CSS](#html-styles---css)
-- []()
+- [Styles - CSS](#html-styles---css)
+- [Links](#links)
 - []()
 - []()
 - []()
@@ -116,6 +117,7 @@ Colors are predefindes with color names, RGB, HEX, HSL, RGBA or HSLA values.
 ### Color names
 
 Examples:
+
 - Tomato
 - Orange
 - DodgerBlue
@@ -182,7 +184,7 @@ HSLA = (hue, saturation, lightness, alpha)
 
 - the same as HSL, but with an extra alpha value
 
-## HTML Styles - CSS
+## Styles - CSS
 
 CSS = Cascading Style Sheets
 
@@ -331,5 +333,41 @@ Example with a style sheet located in the same folder as the page:
 ```HTML
 <link rel="stylesheet" href="styles.css">
 ```
+
+## Links
+
+HTML links are hyperlinks. Click a link and get to another document (HTML, IMG, PNG, ...).
+
+Links don´t need to be text, they can be every other element.
+
+### Syntax
+
+`<a>` defines a hyperlink.
+
+Syntax:
+
+```HTML
+<a href="url">link text</a>
+```
+
+The most important part is the `href` attribute, it defines the destination of the hyperlink. 
+
+"link text" is shown to the user and can be clicked to send the user to the specified URL.
+
+Example:
+
+```HTML
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a> 
+```
+
+By default, links are...
+
+    ... underlined and blue, when not visited.
+    ... underlined and purple, when visited.
+    ... underlined and red, when active. That means, when the user clicks on the link, it gets red while pressed.
+
+=> Links can be styled with CSS.
+
+### The target Attribute
 
 [go back to REDME.md](/README.md)

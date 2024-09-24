@@ -11,7 +11,8 @@ Here I´m learning HTML.
     - [Quotation and Citation](/topics/01tutorial.md/#quotation-and-citation)
     - [Comments](/topics/01tutorial.md/#comments)
     - [Colors](/topics/01tutorial.md/#colors)
-    - [HTML Styles - CSS](/topics/01tutorial.md/#html-styles---css)
+    - [Styles - CSS](/topics/01tutorial.md/#styles---css)
+    - [Links](/topics/01tutorial.md/#links)
 
 Usefull Links:
 

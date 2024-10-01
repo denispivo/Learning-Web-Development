@@ -14,7 +14,7 @@ All upcoming topics are tested in the test.html file
 - [Colors](#colors)
 - [Styles - CSS](#html-styles---css)
 - [Links](#links)
-- []()
+- [Images](#images)
 - []()
 - []()
 - []()
@@ -453,6 +453,165 @@ Example:
 
 ```HTML
 <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> 
+```
+
+### Link Colors
+
+As said before:
+
+By default, links are...
+
+    ... underlined and blue, when not visited.
+    ... underlined and purple, when visited.
+    ... underlined and red, when active. That means, when the user clicks on the link, it gets red while pressed.
+
+Use CSS to change those colors:
+
+```HTML
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+```
+
+### Buttons
+
+As said before, the functionality of a button comes with JavaScript. To style the button you need CSS.
+
+Example:
+
+```HTML
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+```
+
+### Create Bookmarks
+
+Bookmarks are used if the website is long and to see the topics at the top, to instantly go to the topic written on the website. (commonly used on wikipedia)
+
+Use `id` attribute to create the bookmark:
+
+```HTML
+<h2 id="C4">Chapter 4</h2>
+```
+
+Add `id` of the bookmark to the link, to jump to the bookmark:
+
+```HTML
+<a href="#C4">Jump to Chapter 4</a> 
+```
+
+You can also jump to a bookmark on another page:
+
+```HTML
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+```
+
+## Images
+
+The HMTL `<img>` tag is used to link images to websites, they are technically not inserted.
+
+This tag is empty and only holds attributes.
+
+The two required attributes are:
+    - `src` -> path to the image
+    - `alt` -> alternate text for the image
+
+Syntax:
+
+```HTML
+<img src="url" alt="alternatetext"> 
+```
+
+### `src` Attribute
+
+This tag specifies the path (URL) to the image.
+
+Example:
+
+```HTML
+<img src="img_chania.jpg" alt="Flowers in Chania"> 
+```
+
+### `alt` Attribute
+
+Alternate provides text for an image, if the image can´t be shown for some reason.
+
+The value of `alt` should describe the image:
+
+Example:
+
+```HTML
+<img src="img_chania.jpg" alt="Flowers in Chania">
+```
+
+If a browser cannot find an image, it will display the value of the alt attribute:
+
+```HTML
+<img src="wrongname.gif" alt="Flowers in Chania">
+```
+
+### Image Size - Width and Height
+
+Use CSS or the `style` attribute to specify the width and height of an image.
+
+```HTML
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+```
+
+There is also an option to use `width` and `height` as attributes (values are always in pixels):
+
+```HTML
+<img src="img_girl.jpg" alt="Girl in a jacket" width=500 height=600>
+```
+
+### Images in Another Folder
+
+If the images are in another folder, you need to specify the path in the `src` attribute:
+
+```HTML
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+```
+
+### Images on Another Server
+
+If the images are on another server, you need to specify the full URL in the `src` attribute:
+
+```HTML
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
 ```
 
 [go back to REDME.md](/README.md)

@@ -391,6 +391,68 @@ Example:
 <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
 ```
 
-### URLs vs. Relative URLs
+### Absolute URLs vs. Relative URLs
+
+An absolute URL is the full address of a webpage.
+
+Example:
+
+```HTML
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+```
+
+A relative URL is a local link to the page on the same website. (without the "https://www." part)
+
+Example:
+
+```HTML
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+```
+
+### Links - Use an Image as a Link
+
+Just put an image tag (`<img>`) inside the link tag (`<a>`).
+
+Example:
+
+```HTML
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a> 
+```
+
+### Link to an Email Address
+
+Use `mailto:` inside the `href`.
+
+Example:
+
+```HTML
+<a href="mailto:someone@example.com">Send email</a> 
+```
+
+### Button as a Link
+
+To use a button, you need to add some JavaScript code, to specify what the button will do, at certain events.
+
+Example:
+
+```HTML
+<button onclick="document.location='default.asp'">HTML Tutorial</button> 
+```
+
+### Link Titles
+
+Titles can also be used with links, as in this [definition](#attributes) of the attribute title.
+
+Example:
+
+```HTML
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> 
+```
 
 [go back to REDME.md](/README.md)

@@ -18,6 +18,7 @@ Starting with HTML and basics of CSS.
     - [Styles - CSS](/topics-HTML/01tutorial.md/#styles---css)
     - [Links](/topics-HTML/01tutorial.md/#links)
     - [Images](/topics-HTML/01tutorial.md/#images)
+    - [Image Maps](/topics-HTML/01tutorial.md/#image-maps)
 
 Usefull Links:
 

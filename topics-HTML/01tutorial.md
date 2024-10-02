@@ -15,7 +15,7 @@ All upcoming topics are tested in the test.html file
 - [Styles - CSS](#html-styles---css)
 - [Links](#links)
 - [Images](#images)
-- []()
+- [Image Maps](#image-maps)
 - []()
 - []()
 - []()
@@ -606,12 +606,80 @@ If the images are in another folder, you need to specify the path in the `src` a
 <img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
 ```
 
-### Images on Another Server
+### Images on Another Server/Website
 
 If the images are on another server, you need to specify the full URL in the `src` attribute:
 
 ```HTML
 <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+```
+
+### Animated Images
+
+HTML allowes GIFs:
+
+```HTML
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+```
+
+### Image as a Link
+
+Just put the `<img>` tag inside the `<a>` tag:
+
+```HTML
+<a href="default.asp">
+    <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a> 
+```
+
+### Image Floating
+
+As for text you can use the CSS `float` property to let the image float at the light or left:
+
+```HTML
+<p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+
+<p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+The image will float to the left of the text.</p> 
+```
+
+### Common Image Formats
+
+Most common image file types (supported in all browsers (Chrome, Edge, Firefox, Safari, Opera)):
+
+|Abbreviation|File Format|File Extension|
+|---|---|---|
+|APNG|Animated Portable Network Graphics|.apng|
+|GIF|Graphics Interchange Format|.gif|
+|ICO|Microsoft Icon|.ico, .cur|
+|JPEG|Joint Photographic Expert Group Image|.jpg, .jpeg, .jfif, .pjpeg, .pjp|
+|PNG|Portable Network Graphics|.png|
+|SVG|Scalable Vector Graphics|.svg|
+
+### HTML Image Tags
+
+|Tag|Description|
+|---|---|
+|`<img>`|Defines an image|
+|`<map>`|Defines an image map|
+|`<area>`|Defines a clickable area inside an image map|
+|`<picture>`|Defines a container for multiple image resources|
+
+## Image Maps
+
+The `<map>` tag defines an image map, that´s an image with clickable areas. The areas are defined with one or more `<area>` tags.
+
+Example:
+
+``HTML
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map> 
 ```
 
 [go back to REDME.md](/README.md)

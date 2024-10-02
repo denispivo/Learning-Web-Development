@@ -107,12 +107,16 @@
         <bdo dir="rtl">This text will be written from right to left</bdo> 
       </div>
 
+      <hr>
+
       <!-- commenting -->
       <div>
         <h1 style="font-size: 200%;">Commenting</h1>
         <!-- That´s a comment -->
         <p>Above this paragraph there is an comment. Go search it in the source code.</p>
       </div>
+
+      <hr>
 
       <!-- colors -->
       <div>
@@ -128,6 +132,8 @@
           <div style="height: 100px; width: 300px; background-color: lightgray; text-align: center; align-content: center; margin: 0 5% 0 0; float: left; color: black;">LightGray</div>
         </div>
       </div>
+
+      <hr>
 
       <!-- RGB and RGBA Colors -->
       <div>
@@ -163,6 +169,8 @@
         </div>
       </div>
 
+      <hr>
+
       <!-- HEX Colors -->
       <div>
         <h1 style="font-size: 200%;">HEX Colors</h1>
@@ -186,6 +194,8 @@
           <div style="height: 75px; width: auto; background-color: #f8f8f8; align-content: center; color: black;">#f8f8f8</div>
         </div>
       </div>
+
+      <hr>
 
       <!-- HSL and HSLA Colors -->
       <div>
@@ -241,6 +251,8 @@
         </div>
       </div>
 
+      <hr>
+
       <!-- Links -->
       <div>
         <h1 style="font-size: 200%;">Links</h1>
@@ -258,6 +270,39 @@
         <h2>Button as a link:</h2>
         <a class="testbutton" href="javasript:void(0)">This is a link to the void</a>
       </div>
+
+      <hr>
+
+      <!-- Images -->
+      <div>
+        <h1 style="font-size: 200%;">Images</h1>
+        <h2>Image Floating</h2>
+        <p><img src="images/wtff-cat-confused-orange.gif" alt="wtff cat confused orange" style="float:right;width:42px;height:42px;">
+        The image will float to the right of the text.</p>
+          
+        <p><img src="images/wtff-cat-confused-orange.gif" alt="wtff cat confused orange" style="float:left;width:42px;height:42px;">
+        The image will float to the left of the text.</p> 
+      </div>
+
+      <hr>
+
+      <!-- Image Maps -->
+      <div>
+        <h1 style="font-size: 200%;">Image Maps</h1>
+        <div>
+          <p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+          <img src="test-maps/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+          <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="test-maps/computer.html">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="test-maps/phone.html">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="test-maps/coffee.html">
+          </map>
+        </div>
+      </div>
+
+      <hr>
 
     </div>
   </body>

@@ -20,7 +20,11 @@ Starting with HTML and basics of CSS.
     - [Images](/topics-HTML/01tutorial.md/#images)
     - [Image Maps](/topics-HTML/01tutorial.md/#image-maps)
 
-Usefull Links:
+## Previews
+
+Preview the test.html [here](https://html-preview.github.io/?url=https://github.com/denispivo/Learning-Web-Development/blob/master/test.html).
+
+## Usefull Links:
 
 - [html learning page](https://www.w3schools.com/html/default.asp)
 

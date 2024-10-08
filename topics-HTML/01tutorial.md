@@ -16,8 +16,8 @@ All upcoming topics are tested in the test.html file
 - [Links](#links)
 - [Images](#images)
 - [Image Maps](#image-maps)
-- []()
-- []()
+- [Background Images](#background-images)
+- [Picture Element](#picture-element)
 - []()
 
 ## Elements
@@ -808,6 +808,127 @@ function myFunction() {
     alert("You clicked the coffee cup!");
 }
 </script> 
+```
+
+## Background Images
+
+A background image can be specified for almost any HTML element.
+
+### Background Image on a HTML element
+
+Use the `style` attribute and the CSS `background-image` property to add a background image:
+
+```HTML
+<p style="background-image: url('img_girl.jpg');">
+```
+
+### Background Image on a Page
+
+To get a full background on the whole page, add the property to the `<body>` element:
+
+```HTML
+<style>
+    body {
+        background-image: url('img_girl.jpg');
+    }
+</style>
+```
+
+### Background Repeat
+
+While the image is smaller then the background, the image repeats itself vertically and horizontally, until the whole background is full.
+
+Example:
+
+```HTML
+<style>
+    body {
+        background-image: url('img_girl.jpg');
+    }
+</style>
+```
+
+To avoid the image to repeat in the background, use the `background-repeat` property with `no-repeat`:
+
+```HTML
+<style>
+    body {
+        background-image: url('img_girl.jpg');
+        background-repeat: no-repeat;
+    }
+</style>
+```
+
+### Background Cover
+
+Use the `background-size` property with `cover`, to cover the entire background of the element.
+
+To make sure that the entire element is always covered, set the `background-attachment` property to `fixed`.
+
+Like this the image won´t stretch and cover the entire element:
+
+```HTML
+<style>
+    body {
+        background-image: url('img_girl.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+```
+
+### Background Stretch
+
+Use the `background-size` property with `100% 100%` to stretch the image to fit the entire element:
+
+```HTML
+<style>
+    body {
+        background-image: url('img_girl.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+</style>
+```
+
+## Picture Element
+
+The `<picture>` element allows you to display different pictures for different devices or screen sizes.
+
+The `<picture>` element has one or more `<source>` elements, each reffers to different images through the `srcset` attribute and has a `media` attribute that defines when which image will show up.
+
+Example:
+
+```HTML
+<picture>
+    <source media="(min-width: 650px)" srcset="img_food.jpg">
+    <source media="(min-width: 465px)" srcset="img_car.jpg">
+    <img src="img_girl.jpg">
+</picture> 
+```
+
+### When to use the Picture Element
+
+There are two main purposes for the `<picture>` element:
+
+#### 1. Bandwidth
+
+If you have a small screen or device, it is not necessary to load a large image file. The browser will use the first `<source>` element with matching attribute values, and ignore any of the following elements.
+
+#### 2. Format Support
+
+Some browsers or devices may not support all image formats. By using the `<picture>` element, you can add images of all formats, and the browser will use the first format it recognizes, and ignore any of the following elements.
+
+Example:
+
+```HTML
+<picture>
+    <source srcset="img_avatar.png">
+    <source srcset="img_girl.jpg">
+    <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
+</picture> 
 ```
 
 [go back to REDME.md](/README.md)

@@ -13,7 +13,7 @@
 
 		<!-- headlines test -->
 		<div>
-			<h1 style="font-size: 200%;">Elements:</h1>
+			<h1>Elements:</h1>
 			<h1 style="text-align: right;">Perfect Headline</h1>
 			<h2 style="text-align: center;">Perfect Headline</h2>
 			<h3>Perfect Headline</h3>
@@ -29,7 +29,7 @@
 
 		<!-- attributes -->
 		<div>
-			<h1 style="font-size: 200%;">Attributes:</h1>
+			<h1>Attributes:</h1>
 			<p><a href="https://www.w3schools.com/html/html_basic.asp">This is a link</a></p>
 			<div>
 				<img src="images/wtff-cat-confused-orange.gif" width="100" height="100">
@@ -65,7 +65,7 @@
 
 		<!-- formatting -->
 		<div>
-			<h1 style="font-size: 200%;">Formatting</h1>
+			<h1>Formatting</h1>
 			<b>Bold text</b>
 			<br>
 			<strong>Important text</strong>
@@ -92,7 +92,7 @@
 
 		<!-- quotation and citation -->
 		<div>
-			<h1 style="font-size: 200%;">Quotation and Citation</h1>
+			<h1>Quotation and Citation</h1>
 			<p>Here is a <strong>blockquote</strong> from WWF's website:</p>
 			<blockquote cite="http://www.worldwildlife.org/who/index.html">
 				For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
@@ -114,7 +114,7 @@
 
 		<!-- commenting -->
 		<div>
-			<h1 style="font-size: 200%;">Commenting</h1>
+			<h1>Commenting</h1>
 			<!-- That´s a comment -->
 			<p>Above this paragraph there is an comment. Go search it in the source code.</p>
 		</div>
@@ -123,7 +123,7 @@
 
 		<!-- colors -->
 		<div>
-			<h1 style="font-size: 200%;">Colors</h1>
+			<h1>Colors</h1>
 			<div style="margin: 0 - 16px; text-align: center; align-content: center;">
 				<div style="height: 100px; width: 300px; background-color: tomato; text-align: center; align-content: center; margin: 0 5% 0 0; float: left;">Tomato</div>
 				<div style="height: 100px; width: 300px; background-color: orange; text-align: center; align-content: center; margin: 0 5% 0 0; float: left;">Orange</div>
@@ -140,7 +140,7 @@
 
 		<!-- RGB and RGBA Colors -->
 		<div>
-			<h1 style="font-size: 200%;">RGB and RGBA Colors</h1>
+			<h1>RGB and RGBA Colors</h1>
 			<h2>RGB Color Values</h2>
 			<div style="text-align: center;">
 				<div style="height: 75px; width: auto; background-color: rgb(255, 0, 0); align-content: center;">rgb(255, 0, 0)</div>
@@ -176,7 +176,7 @@
 
 		<!-- HEX Colors -->
 		<div>
-			<h1 style="font-size: 200%;">HEX Colors</h1>
+			<h1>HEX Colors</h1>
 			<h2>HEX Color Values</h2>
 			<div style="text-align: center;">
 				<div style="height: 75px; width: auto; background-color: #ff0000; align-content: center;">#ff0000</div>
@@ -202,7 +202,7 @@
 
 		<!-- HSL and HSLA Colors -->
 		<div>
-			<h1 style="font-size: 200%;">HSL and HSLA Colors</h1>
+			<h1>HSL and HSLA Colors</h1>
 			<h2>HSL Color Values</h2>
 			<div style="text-align: center;">
 				<div style="height: 75px; width: auto; background-color: hsl(0, 100%, 50%); align-content: center;">hsl(0, 100%, 50%)</div>
@@ -258,7 +258,7 @@
 
 		<!-- Links -->
 		<div>
-			<h1 style="font-size: 200%;">Links</h1>
+			<h1>Links</h1>
 			<h2>The target Attribute</h2>
 			<div>
 				<ul>
@@ -278,7 +278,7 @@
 
 		<!-- Images -->
 		<div>
-			<h1 style="font-size: 200%;">Images</h1>
+			<h1>Images</h1>
 			<h2>Image Floating</h2>
 			<p><img src="images/wtff-cat-confused-orange.gif" alt="wtff cat confused orange" style="float:right;width:42px;height:42px;">
 				The image will float to the right of the text.</p>
@@ -291,7 +291,7 @@
 
 		<!-- Image Maps -->
 		<div>
-			<h1 style="font-size: 200%;">Image Maps</h1>
+			<h1>Image Maps</h1>
 			<div>
 				<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
 
@@ -303,6 +303,23 @@
 					<area shape="circle" coords="337,300,44" alt="Cup of coffee" href="test-maps/coffee.html">
 				</map>
 			</div>
+
+			<div>
+				<p>Click on the coffe cup to trigger a JavaScript function:</p>
+
+				<img src="test-maps/workplace.jpg" alt="Workplace" usemap="#workmap2" width="400" height="379">
+
+				<map name="workmap2">
+					<area shape="circle" coords="337,300,44" href="test-maps/coffee.html" onclick="myFunction()">
+				</map>
+				
+				<script>
+				function myFunction() {
+					alert("You clicked the coffee cup!");
+				}
+				</script> 
+			</div>
+
 		</div>
 
 		<hr>

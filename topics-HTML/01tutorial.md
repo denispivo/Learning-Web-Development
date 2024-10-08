@@ -22,71 +22,71 @@ All upcoming topics are tested in the test.html file
 
 ## Elements
 
-|Element|Description|
-|---|---|
-|`<html>`|Defines the root of an HTML document|
-|`<body>`|Defines the document's body|
-|`<h1>` to `<h6>`|Defines HTML headings|
+| Element          | Description                          |
+| ---------------- | ------------------------------------ |
+| `<html>`         | Defines the root of an HTML document |
+| `<body>`         | Defines the document's body          |
+| `<h1>` to `<h6>` | Defines HTML headings                |
 
 ## Attributes
 
 All HTML elements can have **attributes**
 
-|Element|Attribute|Description|
-|---|---|---|
-|`<a>`|`href`|Specifies the URL of the page the link goes to|
-|`<img>`|`src`|Specifies the path to the image to be displayed|
-|`<img>`|`width` and `height`|Provide size information for images|
-|`<img>`|`alt`|Provides an alternate text for an image|
-|`<html>`|`lang`|Tag declares the language of the Web page|
-||`style`|Attribute is used to add styles to an element, such as color, font, size, and more|
-||`title`|Attribute defines some extra information about an element|
+| Element  | Attribute            | Description                                                                        |
+| -------- | -------------------- | ---------------------------------------------------------------------------------- |
+| `<a>`    | `href`               | Specifies the URL of the page the link goes to                                     |
+| `<img>`  | `src`                | Specifies the path to the image to be displayed                                    |
+| `<img>`  | `width` and `height` | Provide size information for images                                                |
+| `<img>`  | `alt`                | Provides an alternate text for an image                                            |
+| `<html>` | `lang`               | Tag declares the language of the Web page                                          |
+|          | `style`              | Attribute is used to add styles to an element, such as color, font, size, and more |
+|          | `title`              | Attribute defines some extra information about an element                          |
 
 ## Paragraphs
 
-|Element|Description|
-|---|---|
-|`<p>`|Defines a paragraph|
-|`<hr>`|Defines a thematic change in the content|
-|`<br>`|Inserts a single line break|
-|`<pre>`|Denies a pre-formatted text|
+| Element | Description                              |
+| ------- | ---------------------------------------- |
+| `<p>`   | Defines a paragraph                      |
+| `<hr>`  | Defines a thematic change in the content |
+| `<br>`  | Inserts a single line break              |
+| `<pre>` | Denies a pre-formatted text              |
 
 ## Styles
 
-|Element|Description|
-|---|---|
-|`style`|Used for styling HTML elements|
-|`background-color`|Used for background color|
-|`color`|Used for text color|
-|`font-family`|Used for text fonts|
-|`font-size`|Used for text sizes|
-|`text-align`|Used for text alignment (top/bottom/left/right/center)|
+| Element            | Description                                            |
+| ------------------ | ------------------------------------------------------ |
+| `style`            | Used for styling HTML elements                         |
+| `background-color` | Used for background color                              |
+| `color`            | Used for text color                                    |
+| `font-family`      | Used for text fonts                                    |
+| `font-size`        | Used for text sizes                                    |
+| `text-align`       | Used for text alignment (top/bottom/left/right/center) |
 
 ## Formatting
 
-|Element|Description|
-|---|---|
-|`<b>`|- Defines bold text <br>- without any extra importance|
-|`<strong>`|- Defines important text <br>- content is typically in bold|
-|`<i>`|- Defines a part of text in an alternate voice or mood <br>- content inside is typically displayed in italic <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.|
-|`<em>`|- Defines emphasized text <br>- content inside is typically displayed in italic <br>=> Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.|
-|`<small>`|- Defines smaller text|
-|`<mark>`|- Defines marked/highlighted text|
-|`<del>`|- Defines text, that has been deleted from a document <br>- browsers will usually strike a line through deleted text|
-|`<ins>`|- Defines text, that has been inserted into a document <br>- browsers will usually underline inserted text|
-|`<sub>`|- Defines subscripted text <br>- appears half a character below the normal line and is sometimes rendered in a smaller font <br>=> Subscript text can be used for chemical formulas, like H<sub>2</sub>O|
-|`<sup>`|- Defines superscripted text <br>- appears half a character above the normal line and is sometimes rendered in a smaller font <br>=> Superscript text can be used for footnotes, like WWW<sup>[1]</sup>|
+| Element    | Description                                                                                                                                                                                                                                     |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `<b>`      | - Defines bold text <br>- without any extra importance                                                                                                                                                                                          |
+| `<strong>` | - Defines important text <br>- content is typically in bold                                                                                                                                                                                     |
+| `<i>`      | - Defines a part of text in an alternate voice or mood <br>- content inside is typically displayed in italic <br>=> Tip: The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc. |
+| `<em>`     | - Defines emphasized text <br>- content inside is typically displayed in italic <br>=> Tip: A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.                                                           |
+| `<small>`  | - Defines smaller text                                                                                                                                                                                                                          |
+| `<mark>`   | - Defines marked/highlighted text                                                                                                                                                                                                               |
+| `<del>`    | - Defines text, that has been deleted from a document <br>- browsers will usually strike a line through deleted text                                                                                                                            |
+| `<ins>`    | - Defines text, that has been inserted into a document <br>- browsers will usually underline inserted text                                                                                                                                      |
+| `<sub>`    | - Defines subscripted text <br>- appears half a character below the normal line and is sometimes rendered in a smaller font <br>=> Subscript text can be used for chemical formulas, like H<sub>2</sub>O                                        |
+| `<sup>`    | - Defines superscripted text <br>- appears half a character above the normal line and is sometimes rendered in a smaller font <br>=> Superscript text can be used for footnotes, like WWW<sup>[1]</sup>                                         |
 
 ## Quotation and Citation
 
-|Element|Description|
-|---|---|
-|`<blockquote>`|- element defines a section that is quoted from another source|
-|`<q>`|- tag defines a short quotation|
-|`<abbr>`|- tag defines an abbreviation or an acronym <br>- Marking abbreviations can give useful information to browsers, translation systems and search-engines <br>=> Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.|
-|`<address>`|- tag defines the contact information for the author/owner of a document or an article <br> - The contact information can be an email address, URL, physical address, phone number, social media handle, etc <br> -> usually renders in italic, and browsers will always add a line break before and after the `<address>` element|
-|`<cite>`|- tag defines the title of a creative work|
-|`<bdo>`|- Bi-Directional Override <br>- this tag is used to override the current text direction|
+| Element        | Description                                                                                                                                                                                                                                                                                                                        |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `<blockquote>` | - element defines a section that is quoted from another source                                                                                                                                                                                                                                                                     |
+| `<q>`          | - tag defines a short quotation                                                                                                                                                                                                                                                                                                    |
+| `<abbr>`       | - tag defines an abbreviation or an acronym <br>- Marking abbreviations can give useful information to browsers, translation systems and search-engines <br>=> Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.                                           |
+| `<address>`    | - tag defines the contact information for the author/owner of a document or an article <br> - The contact information can be an email address, URL, physical address, phone number, social media handle, etc <br> -> usually renders in italic, and browsers will always add a line break before and after the `<address>` element |
+| `<cite>`       | - tag defines the title of a creative work                                                                                                                                                                                                                                                                                         |
+| `<bdo>`        | - Bi-Directional Override <br>- this tag is used to override the current text direction                                                                                                                                                                                                                                            |
 
 ## Comments
 
@@ -107,7 +107,7 @@ Use comments to hide content to test the code when an bug occurs:
 
 <!-- <p>This is another paragraph </p> -->
 
-<p>This is a paragraph too.</p> 
+<p>This is a paragraph too.</p>
 ```
 
 ## Colors
@@ -148,13 +148,13 @@ Example: `<h1 style="border:2px solid Tomato;">Hello World</h1>`
 
 In HTML colors can also be specified using RGB, HEX, HSL, RGBA and HSLA values.
 
-|Value Type|Example|HTML Example|
-|---|---|---|
-|RGB|`rbg(255, 99 ,71)`|`<h1 style="background-color:rgb(255, 99, 71);">...</h1>`|
-|HEX|`#ff6347`|`<h1 style="background-color:#ff6347;">...</h1>`|
-|HSL|`hsl(9, 100%, 64%)`|`<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>`|
-|RGBA|`rgba(255, 99 , 71, 0.5)` <br> -> 50% transparency|`<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>`|
-|HSLA|`hsla(9, 100%, 64%, 0.5)` <br> -> 50% transparency|`<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>`|
+| Value Type | Example                                            | HTML Example                                                     |
+| ---------- | -------------------------------------------------- | ---------------------------------------------------------------- |
+| RGB        | `rbg(255, 99 ,71)`                                 | `<h1 style="background-color:rgb(255, 99, 71);">...</h1>`        |
+| HEX        | `#ff6347`                                          | `<h1 style="background-color:#ff6347;">...</h1>`                 |
+| HSL        | `hsl(9, 100%, 64%)`                                | `<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>`       |
+| RGBA       | `rgba(255, 99 , 71, 0.5)` <br> -> 50% transparency | `<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>`  |
+| HSLA       | `hsla(9, 100%, 64%, 0.5)` <br> -> 50% transparency | `<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>` |
 
 ### RGB and RGBA Colors
 
@@ -194,11 +194,11 @@ CSS is used to format the layout of multiple web pages all at once.
 
 CSS can be added to HTML documents in 3 ways:
 
-|Type|Attribute|Description|
-|---|---|---|
-|Inline|`style`|Using thins inside HTML elements|
-|Internal|`<style>`|Using this element in the `<head>` section|
-|External|`<link>`|Using this element to link to external CSS files|
+| Type     | Attribute | Description                                      |
+| -------- | --------- | ------------------------------------------------ |
+| Inline   | `style`   | Using thins inside HTML elements                 |
+| Internal | `<style>` | Using this element in the `<head>` section       |
+| External | `<link>`  | Using this element to link to external CSS files |
 
 => The most common way to use CSS is by writing the styles in an external CSS files.
 
@@ -209,7 +209,7 @@ Example:
 ```HTML
 <h1 style="color:blue;">A Blue Heading</h1>
 
-<p style="color:red;">A red paragraph.</p> 
+<p style="color:red;">A red paragraph.</p>
 ```
 
 ### Internal CSS
@@ -232,7 +232,7 @@ Example:
         <p>This is a paragraph.</p>
 
     </body>
-</html> 
+</html>
 ```
 
 ### External CSS
@@ -251,7 +251,7 @@ Example:
         <p>This is a paragraph.</p>
 
     </body>
-</html> 
+</html>
 ```
 
 "styles.css":
@@ -270,11 +270,11 @@ p {
 
 ### CSS Colors, Fonts and Sizes
 
-|Element|Description|
-|---|---|
-|`color`|Defines the text color|
-|`font-family`|Defines the font|
-|`font-size`|Defines the text size|
+| Element       | Description            |
+| ------------- | ---------------------- |
+| `color`       | Defines the text color |
+| `font-family` | Defines the font       |
+| `font-size`   | Defines the text size  |
 
 Example:
 
@@ -301,16 +301,16 @@ Example:
         <p>This is a paragraph.</p>
 
     </body>
-</html> 
+</html>
 ```
 
 ### CSS Border, Padding, Margin
 
-|Property|Description|HTML Example|
-|---|---|---|
-|`border`|Defines a border around HTMl elements|<code>p { <br> &nbsp; border: 2px solid powderblue; <br> }</code>|
-|`padding`|Defines a padding (space) between the text and the border|<code>p { <br> &nbsp; border: 2px solid powderblue; <br> &nbsp; padding: 30px; <br> }</code>|
-|`margin`|Defines a margin (space) outside the border|<code>p { <br> &nbsp; border: 2px solid powderblue; <br> &nbsp; margin: 50px; <br> }</code>|
+| Property  | Description                                               | HTML Example                                                                                 |
+| --------- | --------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `border`  | Defines a border around HTMl elements                     | <code>p { <br> &nbsp; border: 2px solid powderblue; <br> }</code>                            |
+| `padding` | Defines a padding (space) between the text and the border | <code>p { <br> &nbsp; border: 2px solid powderblue; <br> &nbsp; padding: 30px; <br> }</code> |
+| `margin`  | Defines a margin (space) outside the border               | <code>p { <br> &nbsp; border: 2px solid powderblue; <br> &nbsp; margin: 50px; <br> }</code>  |
 
 ### Link to External CSS
 
@@ -319,7 +319,7 @@ External CSS can be referenced with a full URL or with a path relative to the cu
 Example with full URL:
 
 ```HTML
-<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"> 
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
 ```
 
 Example with a style sheet located in the html folder on the current web site:
@@ -350,14 +350,14 @@ Syntax:
 <a href="url">link text</a>
 ```
 
-The most important part is the `href` attribute, it defines the destination of the hyperlink. 
+The most important part is the `href` attribute, it defines the destination of the hyperlink.
 
 "link text" is shown to the user and can be clicked to send the user to the specified URL.
 
 Example:
 
 ```HTML
-<a href="https://www.w3schools.com/">Visit W3Schools.com!</a> 
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
 ```
 
 By default, links are...
@@ -376,19 +376,19 @@ The `target` attribute specifies where to open the linked document.
 
 Values you can set of `target`:
 
-|Value|Definition|
-|---|---|
-|`_self`|Default, opens in the same window/tab.|
-|`_blank`|Opens in a new window/tab.|
-|`_parent`|Opens in the parent frame. Does what is defined in the parent frame.|
-|`_top`|Opens in the full body of window. Does what is defined in the top frame.|
+| Value     | Definition                                                               |
+| --------- | ------------------------------------------------------------------------ |
+| `_self`   | Default, opens in the same window/tab.                                   |
+| `_blank`  | Opens in a new window/tab.                                               |
+| `_parent` | Opens in the parent frame. Does what is defined in the parent frame.     |
+| `_top`    | Opens in the full body of window. Does what is defined in the top frame. |
 
 => Go read Iframe to know how frames work. (not done yet)
 
 Example:
 
 ```HTML
-<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a> 
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
 ```
 
 ### Absolute URLs vs. Relative URLs
@@ -422,7 +422,7 @@ Example:
 ```HTML
 <a href="default.asp">
 <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
-</a> 
+</a>
 ```
 
 ### Link to an Email Address
@@ -432,7 +432,7 @@ Use `mailto:` inside the `href`.
 Example:
 
 ```HTML
-<a href="mailto:someone@example.com">Send email</a> 
+<a href="mailto:someone@example.com">Send email</a>
 ```
 
 ### Button as a Link
@@ -442,7 +442,7 @@ To use a button, you need to add some JavaScript code, to specify what the butto
 Example:
 
 ```HTML
-<button onclick="document.location='default.asp'">HTML Tutorial</button> 
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
 ```
 
 ### Link Titles
@@ -452,7 +452,7 @@ Titles can also be used with links, as in this [definition](#attributes) of the 
 Example:
 
 ```HTML
-<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> 
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
 ```
 
 ### Link Colors
@@ -531,7 +531,7 @@ Use `id` attribute to create the bookmark:
 Add `id` of the bookmark to the link, to jump to the bookmark:
 
 ```HTML
-<a href="#C4">Jump to Chapter 4</a> 
+<a href="#C4">Jump to Chapter 4</a>
 ```
 
 You can also jump to a bookmark on another page:
@@ -547,13 +547,14 @@ The HMTL `<img>` tag is used to link images to websites, they are technically no
 This tag is empty and only holds attributes.
 
 The two required attributes are:
-    - `src` -> path to the image
-    - `alt` -> alternate text for the image
+
+- `src` -> path to the image
+- `alt` -> alternate text for the image
 
 Syntax:
 
 ```HTML
-<img src="url" alt="alternatetext"> 
+<img src="url" alt="alternatetext">
 ```
 
 ### `src` Attribute
@@ -563,7 +564,7 @@ This tag specifies the path (URL) to the image.
 Example:
 
 ```HTML
-<img src="img_chania.jpg" alt="Flowers in Chania"> 
+<img src="img_chania.jpg" alt="Flowers in Chania">
 ```
 
 ### `alt` Attribute
@@ -629,7 +630,7 @@ Just put the `<img>` tag inside the `<a>` tag:
 ```HTML
 <a href="default.asp">
     <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
-</a> 
+</a>
 ```
 
 ### Image Floating
@@ -641,30 +642,30 @@ As for text you can use the CSS `float` property to let the image float at the l
 The image will float to the right of the text.</p>
 
 <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
-The image will float to the left of the text.</p> 
+The image will float to the left of the text.</p>
 ```
 
 ### Common Image Formats
 
 Most common image file types (supported in all browsers (Chrome, Edge, Firefox, Safari, Opera)):
 
-|Abbreviation|File Format|File Extension|
-|---|---|---|
-|APNG|Animated Portable Network Graphics|.apng|
-|GIF|Graphics Interchange Format|.gif|
-|ICO|Microsoft Icon|.ico, .cur|
-|JPEG|Joint Photographic Expert Group Image|.jpg, .jpeg, .jfif, .pjpeg, .pjp|
-|PNG|Portable Network Graphics|.png|
-|SVG|Scalable Vector Graphics|.svg|
+| Abbreviation | File Format                           | File Extension                   |
+| ------------ | ------------------------------------- | -------------------------------- |
+| APNG         | Animated Portable Network Graphics    | .apng                            |
+| GIF          | Graphics Interchange Format           | .gif                             |
+| ICO          | Microsoft Icon                        | .ico, .cur                       |
+| JPEG         | Joint Photographic Expert Group Image | .jpg, .jpeg, .jfif, .pjpeg, .pjp |
+| PNG          | Portable Network Graphics             | .png                             |
+| SVG          | Scalable Vector Graphics              | .svg                             |
 
 ### HTML Image Tags
 
-|Tag|Description|
-|---|---|
-|`<img>`|Defines an image|
-|`<map>`|Defines an image map|
-|`<area>`|Defines a clickable area inside an image map|
-|`<picture>`|Defines a container for multiple image resources|
+| Tag         | Description                                      |
+| ----------- | ------------------------------------------------ |
+| `<img>`     | Defines an image                                 |
+| `<map>`     | Defines an image map                             |
+| `<area>`    | Defines a clickable area inside an image map     |
+| `<picture>` | Defines a container for multiple image resources |
 
 ## Image Maps
 
@@ -672,14 +673,141 @@ The `<map>` tag defines an image map, that´s an image with clickable areas. The
 
 Example:
 
-``HTML
+```HTML
 <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
 
 <map name="workmap">
     <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
     <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
     <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
-</map> 
+</map>
+```
+
+### Why using Image Maps?
+
+The idea is that you can perform different actions when pressing on different parts of the image.
+
+Creating the image map you need an image and HTML code that describes the clickable areas.
+
+### The Image
+
+The image is inserted with the `<img>` tag, the only differents is that it needs `usemap` as an attribute, to link the map and the image together:
+
+```HTML
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+```
+
+The `usemap` value starts with a `#` followed by the name of the `<map>`.
+
+### Create Image Map
+
+After creating the image with the `usemap` attribute, add a `<map>` element.
+
+It´s used to create an image map and also link the map to the image, using the `name` attribute:
+
+```HTML
+<map name="workmap">
+```
+
+The `name` attribute must habe the same name as the `usemap` attribute from the `<img>`.
+
+### The Areas
+
+Create/define an clickable area, using an `<area>` element.
+
+You need a shape and define the coordinates of the shape on the image.
+
+Different shapes:
+
+| shape   | description                  |
+| ------- | ---------------------------- |
+| rect    | defines a rectangular region |
+| circle  | defines a circular region    |
+| poly    | defines a polygonal region   |
+| default | defines the entire region    |
+
+### Shape="rect"
+
+The coordinates come in two pairs, one pair consists of values for the x-axis and y-axis.
+
+For the first corner we have `34,44`, it´s located 34 pixels from the left margin and 44 pixels from the top margin:
+
+![workplace_top_left](/images/workplace_top_left.PNG)
+
+For the second corner we have `270,350`, it´s located 250 pixels from the left margin and 350 pixels from the top margin:
+
+![workplace_bottom_right](/images/workplace_bottom_right.PNG)
+
+Now we have enough data to create a clickable rectangular area:
+
+```HTML
+<area shape="rect" coords="34, 44, 270, 350" href="computer.html">
+```
+
+That´s the created clickable area, when clicking the user gets to the page "computer.html":
+
+![workplace_rect](/images/workplace_rect.PNG)
+
+### Shape="circle"
+
+The coordinates consist of the center of the circle and the radius.
+
+For the center we have `337,300`, it´s located 337 pixels from the left margin and 300 pixels from the top margin:
+
+![workplace_circle_center](/images/workplace_circle_center.PNG)
+
+For the radius we have `44`:
+
+![workplace_circle_radius](/images/workplace_circle_radius.PNG)
+
+Now we have enough data to create a clickable rectangular area:
+
+```HTML
+<area shape="circle" coords="337, 300, 44" href="coffee.htm">
+```
+
+That´s the created clickable area, when clicking the user gets to the page "coffee.html":
+
+![workplace_circle](/images/workplace_circle.PNG)
+
+### Shape="poly"
+
+Just like for `shape="rect"` the coordinates come in pairs, but with a lot more pairs, from which you can create any shape you like.
+
+Example a croissant shape:
+
+![croissant](/images/frenchfood.jpg)
+
+Find all the coordinates you like to have in the shape:
+
+![croissant_poly](/images/frenchfood_poly.jpg)
+
+Example:
+
+```HTML
+<area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" href="croissant.htm">
+```
+
+That´s the created clickable area:
+
+![croissant_area](/images/frenchfood_area.jpg)
+
+### Image Map and JavaScript
+
+A clickable are can trigger a JavaScript function.
+
+Add a `onclick` event in the `<area>` element to execute a JavaScript function:
+
+```HTML
+<map name="workmap">
+    <area shape="circle" coords="337,300,44" href="coffee.html" onclick="myFunction()">
+</map>
+
+<script>
+function myFunction() {
+    alert("You clicked the coffee cup!");
+}
+</script> 
 ```
 
 [go back to REDME.md](/README.md)

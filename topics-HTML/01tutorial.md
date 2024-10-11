@@ -1055,8 +1055,8 @@ Sometimes you need your cells to be header cells, those are headers for the colu
 
 ### Table Tags
 
-| Tag        | Definition                                                                |
-| ---------- | ------------------------------------------------------------------------- |
+| Tag          | Definition                                                                |
+| ------------ | ------------------------------------------------------------------------- |
 | `<table>`    | Defines a table                                                           |
 | `<th>`       | Defines a header cell in a table                                          |
 | `<tr>`       | Defines a row in a table                                                  |
@@ -1069,5 +1069,28 @@ Sometimes you need your cells to be header cells, those are headers for the colu
 | `<tfoot>`    | Groups the footer content in a table                                      |
 
 ## Table Borders
+
+Tables can have different styles and shapes.
+
+### How To Add a Border
+
+Use the Css `border` property on `table`, `th` and `td` elements:
+
+```CSS
+table, th, td {
+    border: 1px solid black;
+}
+```
+
+### Collapsed Table Borders
+
+To avoid double borders, set the CSS `border-collapse` property to `collapse`:
+
+```CSS
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+```
 
 [go back to REDME.md](/README.md)

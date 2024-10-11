@@ -1009,4 +1009,65 @@ So the most important part is to make the title as accurate and meaningful, for 
 
 ## Tables
 
+### Dafine an HTML Table
+
+A table consists of table cells inside rows and columns:
+
+```HTML
+<table>
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+</table>
+```
+
+### Table Cells
+
+Each table cell is defined by a `<td>` and a `</td>` tag, everything between them is the content of the cell.
+
+=> `td` = table data
+
+### Table Rows
+
+Each table row starts with a `<tr>` and ends with a `</tr>` tag.
+
+A table can have as many table rows as possible, but the number of cells should be the same in each row.
+
+=> `tr` = table row
+
+### Table Headers
+
+Sometimes you need your cells to be header cells, those are headers for the columns. Just use the `<th>` tag instead of the `<td>` tag.
+
+=> `th` = table header
+
+### Table Tags
+
+| Tag        | Definition                                                                |
+| ---------- | ------------------------------------------------------------------------- |
+| `<table>`    | Defines a table                                                           |
+| `<th>`       | Defines a header cell in a table                                          |
+| `<tr>`       | Defines a row in a table                                                  |
+| `<td>`       | Defines a cell in a table                                                 |
+| `<caption>`  | Defines a table caption                                                   |
+| `<colgroup>` | Specifies a group of one or more columns in a table for formatting        |
+| `<col>`      | Specifies column properties for each column within a `<colgroup>` element |
+| `<thead>`    | Groups the header content in a table                                      |
+| `<tbody>`    | Groups the body content in a table                                        |
+| `<tfoot>`    | Groups the footer content in a table                                      |
+
+## Table Borders
+
 [go back to REDME.md](/README.md)

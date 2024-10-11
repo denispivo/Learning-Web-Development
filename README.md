@@ -21,6 +21,9 @@ Starting with HTML and basics of CSS.
     - [Image Maps](/topics-HTML/01tutorial.md/#image-maps)
     - [Background Images](/topics-HTML/01tutorial.md/#background-images)
     - [Picture Element](/topics-HTML/01tutorial.md/#picture-element)
+    - [Favicon](/topics-HTML/01tutorial.md/#favicon)
+    - [Page Title](/topics-HTML/01tutorial.md/#page-title)
+    - [Tables](/topics-HTML/01tutorial.md/#tables)
 
 ## Previews
 
@@ -39,3 +42,5 @@ Preview the test.html [here](https://html-preview.github.io/?url=https://github.
 - [html preview](https://html-preview.github.io/)
 
 - [webside](https://github.com/impress/impress.js) made to show that an html side can be a presentation (not mine)
+
+- Create your own favicon on sites like this: [https://www.favicon.cc/](https://www.favicon.cc/).

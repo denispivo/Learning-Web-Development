@@ -18,6 +18,13 @@ All upcoming topics are tested in the test.html file
 - [Image Maps](#image-maps)
 - [Background Images](#background-images)
 - [Picture Element](#picture-element)
+- [Favicon](#favicon)
+- [Page Title](#page-title)
+- [Tables](#tables)
+- []()
+- []()
+- []()
+- []()
 - []()
 
 ## Elements
@@ -807,7 +814,7 @@ Add a `onclick` event in the `<area>` element to execute a JavaScript function:
 function myFunction() {
     alert("You clicked the coffee cup!");
 }
-</script> 
+</script>
 ```
 
 ## Background Images
@@ -906,7 +913,7 @@ Example:
     <source media="(min-width: 650px)" srcset="img_food.jpg">
     <source media="(min-width: 465px)" srcset="img_car.jpg">
     <img src="img_girl.jpg">
-</picture> 
+</picture>
 ```
 
 ### When to use the Picture Element
@@ -928,7 +935,78 @@ Example:
     <source srcset="img_avatar.png">
     <source srcset="img_girl.jpg">
     <img src="img_beatles.gif" alt="Beatles" style="width:auto;">
-</picture> 
+</picture>
 ```
+
+## Favicon
+
+A favicon is a small picture to the left of the page title in the browser tab.
+
+Any image can be used. Create your own favicon on sites like this: [https://www.favicon.cc/](https://www.favicon.cc/).
+
+### How To Add a Favicon in HTML
+
+Safe the image you like, like other images, the common name for a favicon file is "favicon.ico".
+
+Next, add a `<link>` element to your "index.html" file, after the `<title>` element, like this:
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page Title</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+### Favicon File Format Support
+
+| Browser | ICO | PNG | GIF | JPEG | SVG |
+| ------- | --- | --- | --- | ---- | --- |
+| Edge    | Yes | Yes | Yes | Yes  | Yes |
+| Chrome  | Yes | Yes | Yes | Yes  | Yes |
+| Firefox | Yes | Yes | Yes | Yes  | Yes |
+| Opera   | Yes | Yes | Yes | Yes  | Yes |
+| Safari  | Yes | Yes | Yes | Yes  | Yes |
+
+## Page Title
+
+Every web page should have a page title to describe the content and the meaning of the page.
+
+The title is seen in the browser tab.
+
+The `<title>` element adds a title to your page:
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Testing HTML and CSS</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+The `<title>` element:
+
+- defines a title in the browser toolbar
+- provides a title for the page when it is added to favorites
+- **most importantly** displays a title for the page in search engine-results
+
+So the most important part is to make the title as accurate and meaningful, for search engine optimization (SEO).
+
+## Tables
 
 [go back to REDME.md](/README.md)

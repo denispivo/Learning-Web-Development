@@ -1093,4 +1093,73 @@ table, th, td {
 }
 ```
 
+### Style Table Borders
+
+Create an impression of an invisible border, give the cells a background and set the border color to the document color:
+
+```CSS
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    background-color: #96D4D4;
+}
+```
+
+### Round Table Borders
+
+Use the `border-radius` property to get rounded borders:
+
+```CSS
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+```
+
+=> leave out the `table` of the CSS selector, to only have the rounded cells:
+
+```CSS
+th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+```
+
+### Dotted Table Borders
+
+Set the appearence of the border with the `border-style` property:
+
+```CSS
+th, td {
+    border-style: dotted;
+}
+```
+
+Allowed values:
+
+| Value    | Example                                                                                                                          |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `dotted` | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:dotted;">&nbsp;&nbsp;&nbsp;&nbsp;</span></div> |
+| `dashed` | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:dashed">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>  |
+| `solid`  | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:solid">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>   |
+| `double` | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:double">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>  |
+| `groove` | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:groove">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>  |
+| `ridge`  | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:ridge">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>   |
+| `inset`  | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:inset">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>   |
+| `outset` | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:outset">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>  |
+| `none`   | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:none">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>    |
+| `hidden` | <div style="text-align:center;"><span style="xborder:2px solid black;border-style:hidden">&nbsp;&nbsp;&nbsp;&nbsp;</span></div>  |
+
+### Border Color
+
+Use the `border-color` property to set the color of the border:
+
+```CSS
+th, td {
+    border-color: #96D4D4;
+}
+```
+
 [go back to REDME.md](/README.md)

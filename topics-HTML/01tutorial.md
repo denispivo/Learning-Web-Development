@@ -21,8 +21,8 @@ All upcoming topics are tested in the test.html file
 - [Favicon](#favicon)
 - [Page Title](#page-title)
 - [Tables](#tables)
-- []()
-- []()
+- [Table Borders](#table-borders)
+- [Table Sizes](#table-sizes)
 - []()
 - []()
 - []()
@@ -1161,5 +1161,85 @@ th, td {
     border-color: #96D4D4;
 }
 ```
+
+## Table Sizes
+
+The entire table, each column and row can have different sizes.
+
+Using the `style` attribute, with the `height` and `width` properties.
+
+### Table Width and Height
+
+For the whole table width, use `style` to the `<table>` element:
+
+```HTML
+<table style="width:100% height:200px">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table> 
+```
+
+### Table Column Width
+
+Use `style` to an `<th>` or `<td>` element:
+
+```HTML
+<table style="width:100% height:200px">
+    <tr>
+        <th style="width:20%">Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table> 
+```
+
+### Table Row Height
+
+Use `style` to an `<tr>` element:
+
+```HTML
+<table style="width:100% height:200px">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr style="height:200px">
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table> 
+```
+
+## Table Headers
 
 [go back to REDME.md](/README.md)

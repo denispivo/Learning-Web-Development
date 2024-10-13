@@ -18,7 +18,27 @@ body {
 }
 
 hr {
-	margin-top: 60px;
+	margin: 60px;
+}
+
+table {
+	border: 2px solid #dddddd;
+	width: 100%;
+	height: 200px;
+	border-collapse: collapse;
+}
+
+th, tr, td {
+	border: 2px solid #dddddd;
+	text-align: center;
+}
+
+.thWidth20 {
+	width: 20%;
+}
+
+.trHeight20 {
+	height: 20%;
 }
 
 .testbutton {

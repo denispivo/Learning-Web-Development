@@ -1,6 +1,6 @@
 # Learning Web Development
  
-Here I´m learning HTML and CSS.
+For now I´m learning here HTML and CSS. Later JavaScript or TypeScript.
 
 ## HTML
 
@@ -24,6 +24,8 @@ Starting with HTML and basics of CSS.
     - [Favicon](/topics-HTML/01tutorial.md/#favicon)
     - [Page Title](/topics-HTML/01tutorial.md/#page-title)
     - [Tables](/topics-HTML/01tutorial.md/#tables)
+    - [Table Borders](/topics-HTML/01tutorial.md/#table-borders)
+    - [Table Sizes](/topics-HTML/01tutorial.md/#table-sizes)
 
 ## Previews
 

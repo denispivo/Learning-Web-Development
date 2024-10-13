@@ -23,7 +23,7 @@ All upcoming topics are tested in the test.html file
 - [Tables](#tables)
 - [Table Borders](#table-borders)
 - [Table Sizes](#table-sizes)
-- []()
+- [Table Headers](#table-headers)
 - []()
 - []()
 
@@ -1033,13 +1033,13 @@ A table consists of table cells inside rows and columns:
 </table>
 ```
 
-### Table Cells
+### Cells
 
 Each table cell is defined by a `<td>` and a `</td>` tag, everything between them is the content of the cell.
 
 => `td` = table data
 
-### Table Rows
+### Rows
 
 Each table row starts with a `<tr>` and ends with a `</tr>` tag.
 
@@ -1047,13 +1047,13 @@ A table can have as many table rows as possible, but the number of cells should 
 
 => `tr` = table row
 
-### Table Headers
+### Headers
 
 Sometimes you need your cells to be header cells, those are headers for the columns. Just use the `<th>` tag instead of the `<td>` tag.
 
 => `th` = table header
 
-### Table Tags
+### Tags
 
 | Tag          | Definition                                                                |
 | ------------ | ------------------------------------------------------------------------- |
@@ -1241,5 +1241,141 @@ Use `style` to an `<tr>` element:
 ```
 
 ## Table Headers
+
+Tables can have headers for each column, row or multiple columns/rows.
+
+As said before, table headers are defined with `<th>`.
+
+### Horizontal Table Headers
+
+Define all elements of the first row as a `<th>` element:
+
+```HTML
+<table>
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table> 
+```
+
+### Vertical Table Headers
+
+Define the first element of each table row as a `<th>` element:
+
+```HTML
+<table>
+    <tr>
+        <th>Firstname</th>
+        <td>Jill</td>
+        <td>Eve</td>
+    </tr>
+    <tr>
+        <th>Lastname</th>
+        <td>Smith</td>
+        <td>Jackson</td>
+    </tr>
+    <tr>
+        <th>Age</th>
+        <td>94</td>
+        <td>50</td>
+    </tr>
+</table> 
+```
+
+### Align Table Headers
+
+By default the headers are bold and centered.
+
+To align the table headers use the CSS `text-align` property.
+
+For Example to align the header to the left:
+
+```CSS
+th {
+    text-align: left;
+}
+```
+
+### Header for Multiple Columns/Rows
+
+Use the `colspan` attribute, for columns and the `rowspan` attribute, for rows, on the `<th>` element:
+
+`colspan`:
+
+```HTML
+<table>
+    <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+</table> 
+```
+
+`rowspan`:
+
+```HTML
+<table>
+    <tr>
+        <th rowspan="2">Name</th>
+        <td>Jill</td>
+        <td>Eve</td>
+    </tr>
+    <tr>
+        <td>Smith</td>
+        <td>Jackson</td>
+    </tr>
+    <tr>
+        <th>Age</th>
+        <td>94</td>
+        <td>50</td>
+    </tr>
+</table> 
+```
+
+### Caption
+
+Add a caption, as a heading for a table, by using the `<caption>` tag:
+
+```HTML
+<table style="width:100%">
+    <caption>Monthly savings</caption>
+    <tr>
+        <th>Month</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>January</td>
+        <td>$100</td>
+    </tr>
+        <tr>
+        <td>February</td>
+        <td>$50</td>
+    </tr>
+</table> 
+```
+
+## Table Padding and Spacing
 
 [go back to REDME.md](/README.md)

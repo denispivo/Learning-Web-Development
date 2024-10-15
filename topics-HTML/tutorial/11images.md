@@ -2,6 +2,11 @@
 
 [go back to Tutorial](00tutorial.md)
 
+- [Beginning Images](#beginning-images)
+- [Image Maps](#image-maps)
+- [Background Images](#background-images)
+- [Picture Element](#picture-element)
+
 ## Beginning Images
 
 The HMTL `<img>` tag is used to link images to websites, they are technically not inserted.

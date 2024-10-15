@@ -2,9 +2,18 @@
 
 [go back to Tutorial](00tutorial.md)
 
+- [Color Names](#color-names)
+- [Background Color](#background-color)
+- [Text Color](#text-color)
+- [Border Color](#border-color)
+- [Color Values](#color-values)
+- [RGB and RGBA Colors](#rgb-and-rgba-colors)
+- [HEX Colors](#hex-colors)
+- [HSL and HSLA Colors](#hsl-and-hsla-colors)
+
 Colors are predefindes with color names, RGB, HEX, HSL, RGBA or HSLA values.
 
-## Color names
+## Color Names
 
 Examples:
 

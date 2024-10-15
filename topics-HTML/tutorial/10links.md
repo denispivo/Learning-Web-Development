@@ -2,6 +2,10 @@
 
 [go back to Tutorial](00tutorial.md)
 
+- [Beginning Links](#beginning-links)
+- [Link Colors](#link-colors)
+- [Create Bookmarks](#create-bookmarks)
+
 ## Beginning Links
 
 HTML links are hyperlinks. Click a link and get to another document (HTML, IMG, PNG, ...).

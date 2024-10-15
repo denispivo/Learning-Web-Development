@@ -6,7 +6,7 @@ For now I´m learning here HTML and CSS. Later JavaScript or TypeScript.
 
 Starting with HTML and basics of CSS.
 
-- [Tutorial](/topics-HTML/00tutorial.md)
+- [Tutorial](/topics-HTML/tutorial/00tutorial.md)
     <br>=> basics for HTML and CSS, mainly HTML
 
 ## Previews

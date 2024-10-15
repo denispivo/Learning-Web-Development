@@ -6,26 +6,8 @@ For now I´m learning here HTML and CSS. Later JavaScript or TypeScript.
 
 Starting with HTML and basics of CSS.
 
-- [Tutorial](/topics-HTML/01tutorial.md)
-    - [Elements](/topics-HTML/01tutorial.md/#elements)
-    - [Attributes](/topics-HTML/01tutorial.md/#attributes)
-    - [Paragraphs](/topics-HTML/01tutorial.md/#paragraphs)
-    - [Styles](/topics-HTML/01tutorial.md/#styles)
-    - [Formatting](/topics-HTML/01tutorial.md/#formatting)
-    - [Quotation and Citation](/topics-HTML/01tutorial.md/#quotation-and-citation)
-    - [Comments](/topics-HTML/01tutorial.md/#comments)
-    - [Colors](/topics-HTML/01tutorial.md/#colors)
-    - [Styles - CSS](/topics-HTML/01tutorial.md/#styles---css)
-    - [Links](/topics-HTML/01tutorial.md/#links)
-    - [Images](/topics-HTML/01tutorial.md/#images)
-    - [Image Maps](/topics-HTML/01tutorial.md/#image-maps)
-    - [Background Images](/topics-HTML/01tutorial.md/#background-images)
-    - [Picture Element](/topics-HTML/01tutorial.md/#picture-element)
-    - [Favicon](/topics-HTML/01tutorial.md/#favicon)
-    - [Page Title](/topics-HTML/01tutorial.md/#page-title)
-    - [Tables](/topics-HTML/01tutorial.md/#tables)
-    - [Table Borders](/topics-HTML/01tutorial.md/#table-borders)
-    - [Table Sizes](/topics-HTML/01tutorial.md/#table-sizes)
+- [Tutorial](/topics-HTML/00tutorial.md)
+    <br>=> basics for HTML and CSS, mainly HTML
 
 ## Previews
 

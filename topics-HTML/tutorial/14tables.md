@@ -3,10 +3,13 @@
 [go back to Tutorial](00tutorial.md)
 
 - [Beginning Tables](#beginning-tables)
-- [Table Borders](#table-borders)
-- [Table Sizes](#table-sizes)
-- [Table Headers](#table-headers)
-- []()
+- [Borders](#borders)
+- [Sizes](#sizes)
+- [Headers](#headers)
+- [Padding and Spacing](#padding-and-spacing)
+- [Colspan and Rowspan](#colspan-and-rowspan)
+- [Styling](#styling)
+- [Colgroup](#colgroup)
 
 ## Beginning Tables
 
@@ -69,7 +72,7 @@ Sometimes you need your cells to be header cells, those are headers for the colu
 | `<tbody>`    | Groups the body content in a table                                        |
 | `<tfoot>`    | Groups the footer content in a table                                      |
 
-## Table Borders
+## Borders
 
 Tables can have different styles and shapes.
 
@@ -163,7 +166,7 @@ th, td {
 }
 ```
 
-## Table Sizes
+## Sizes
 
 The entire table, each column and row can have different sizes.
 
@@ -190,7 +193,7 @@ For the whole table width, use `style` to the `<table>` element:
         <td>Jackson</td>
         <td>94</td>
     </tr>
-</table> 
+</table>
 ```
 
 ### Table Column Width
@@ -214,7 +217,7 @@ Use `style` to an `<th>` or `<td>` element:
         <td>Jackson</td>
         <td>94</td>
     </tr>
-</table> 
+</table>
 ```
 
 ### Table Row Height
@@ -238,10 +241,10 @@ Use `style` to an `<tr>` element:
         <td>Jackson</td>
         <td>94</td>
     </tr>
-</table> 
+</table>
 ```
 
-## Table Headers
+## Headers
 
 Tables can have headers for each column, row or multiple columns/rows.
 
@@ -268,7 +271,7 @@ Define all elements of the first row as a `<th>` element:
         <td>Jackson</td>
         <td>94</td>
     </tr>
-</table> 
+</table>
 ```
 
 ### Vertical Table Headers
@@ -292,7 +295,7 @@ Define the first element of each table row as a `<th>` element:
         <td>94</td>
         <td>50</td>
     </tr>
-</table> 
+</table>
 ```
 
 ### Align Table Headers
@@ -331,7 +334,7 @@ Use the `colspan` attribute, for columns and the `rowspan` attribute, for rows, 
         <td>Jackson</td>
         <td>94</td>
     </tr>
-</table> 
+</table>
 ```
 
 `rowspan`:
@@ -352,7 +355,7 @@ Use the `colspan` attribute, for columns and the `rowspan` attribute, for rows, 
         <td>94</td>
         <td>50</td>
     </tr>
-</table> 
+</table>
 ```
 
 ### Caption
@@ -374,7 +377,151 @@ Add a caption, as a heading for a table, by using the `<caption>` tag:
         <td>February</td>
         <td>$50</td>
     </tr>
-</table> 
+</table>
+```
+
+## Padding and Spacing
+
+In tables you can adjust the padding inside cells and the spaces between the cells.
+
+### Cell Padding
+
+It´s the space between the cell edges and the cell content.
+
+The default is 0.
+
+Use the CSS `padding` property:
+
+```CSS
+th, td {
+    padding: 15px;
+}
+```
+
+You can also use `padding-top`, `padding-bottom`, `padding-left` and `padding-right`:
+
+```CSS
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+```
+
+### Cell Spacing
+
+That´s the space between each cell.
+
+The default is 2.
+
+Use the CSS `border-spacing` property to change the spacing:
+
+```CSS
+table {
+    border-spacing: 30px;
+}
+```
+
+## Colspan and Rowspan
+
+As seen before tables can have cells that span over multiple columns and/or rows.
+
+### Colspan
+
+Use `colspan` to span a cell over multiple columns:
+
+```HTML
+<table>
+    <tr>
+        <th colspan="2">Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>43</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>57</td>
+    </tr>
+</table>
+```
+
+### Rowspan
+
+Use `rowspan` to span a cell over multiple rows:
+
+```HTML
+<table>
+    <tr>
+        <th>Name</th>
+        <td>Jill</td>
+    </tr>
+    <tr>
+        <th rowspan="2">Phone</th>
+        <td>555-1234</td>
+    </tr>
+    <tr>
+        <td>555-8745</td>
+    </tr>
+</table>
+```
+
+## Styling
+
+Use CSS to style tables.
+
+### Horizontal Zebra Stripes
+
+Add a background to every second row, to get a zebra stripes effect.
+
+To do this, use the `:n-thchild(even)` selector:
+
+```CSS
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+```
+
+### Vertical Zebra Stripes
+
+Add a background to every second column, to get a zebra stripes effect.
+
+To do this, use the `:n-thchild(even)` selector:
+
+```CSS
+td:nth-child(even), th:nth-child(even) {
+    background-color: #D6EEEE;
+}
+```
+
+### Combine Vertical and Horizontal Zebra Stripes
+
+Combine both stripe variants and use `rgba()` [color](/topics-HTML/tutorial/08colors.md/#rgb-and-rgba-colors) to specify the transparency of the color:
+
+```CSS
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+```
+
+## Colgroup
+
+Specifying only borders on the bottom of each row will get you a table with horizontal dividers.
+
+Add the `border-bottom` property to all `tr` elements:
+
+```CSS
+tr {
+    border-bottom: 1px solid #dddddd;
+}
 ```
 
 [go back to Tutorial](00tutorial.md)

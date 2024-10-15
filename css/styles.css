@@ -23,7 +23,7 @@ hr {
 
 table, th, tr, td {
 	border: 2px solid #dddddd;
-	border-collapse: collapse;
+	/* border-collapse: collapse; */
 }
 
 table {
@@ -37,6 +37,26 @@ th, tr, td {
 
 caption{
 	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #444444;
+}
+
+th {
+	background-color: #222222;
+}
+
+tr:hover {
+	background-color: #8b8b8b;
+}
+
+.spacing30 {
+	border-spacing: 30px;
+}
+
+.padding10 {
+	padding: 10;
 }
 
 .thWidth20 {

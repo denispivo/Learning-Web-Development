@@ -512,7 +512,7 @@ th:nth-child(even),td:nth-child(even) {
 }
 ```
 
-## Colgroup
+### Horizontal Dividers
 
 Specifying only borders on the bottom of each row will get you a table with horizontal dividers.
 
@@ -522,6 +522,36 @@ Add the `border-bottom` property to all `tr` elements:
 tr {
     border-bottom: 1px solid #dddddd;
 }
+```
+
+### Hoverable Table
+
+Use `:hover` selector for any table element to highlight the part.
+
+Example:
+```CSS
+tr:hover {
+    background-color: #8b8b8b;
+}
+```
+
+## Colgroup
+
+Colgroup is there for styling the first columns of a table, using `<colgroup>`, `<col>` and `span` as a style attribute for `<col>`.
+
+Example:
+
+```CSS
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+... 
 ```
 
 [go back to Tutorial](00tutorial.md)

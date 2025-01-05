@@ -554,4 +554,35 @@ Example:
 ... 
 ```
 
+### CSS Properties
+
+`width`, `visibility`, `background` and `border` properties can be used with colgroups, all other will have no effect on the table.
+
+### Multiple Col Elements
+
+```CSS
+<colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+    <col span="3" style="background-color: pink">
+</colgroup>
+```
+
+### Empty Colgroups
+
+```CSS
+<colgroup>
+    <col span="2">
+    <col span="3" style="background-color: pink">
+</colgroup>
+```
+
+### Hide Columns
+
+```CSS
+<colgroup>
+    <col span="2">
+    <col span="3" style="visibility: collapse">
+</colgroup>
+```
+
 [go back to Tutorial](00tutorial.md)

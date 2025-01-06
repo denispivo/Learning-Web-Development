@@ -541,7 +541,7 @@ Colgroup is there for styling the first columns of a table, using `<colgroup>`, 
 
 Example:
 
-```CSS
+```HTML
 <table>
   <colgroup>
     <col span="2" style="background-color: #D6EEEE">
@@ -560,7 +560,7 @@ Example:
 
 ### Multiple Col Elements
 
-```CSS
+```HTML
 <colgroup>
     <col span="2" style="background-color: #D6EEEE">
     <col span="3" style="background-color: pink">
@@ -569,7 +569,7 @@ Example:
 
 ### Empty Colgroups
 
-```CSS
+```HTML
 <colgroup>
     <col span="2">
     <col span="3" style="background-color: pink">
@@ -578,7 +578,7 @@ Example:
 
 ### Hide Columns
 
-```CSS
+```HTML
 <colgroup>
     <col span="2">
     <col span="3" style="visibility: collapse">

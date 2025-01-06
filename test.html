@@ -342,7 +342,7 @@
 		<div>
 			<h1>Tables</h1>
 			<h2>Table width and height:</h2>
-			<table class="spacing30">
+			<table class="spacing30 testTable">
 				<caption>Test Caption</caption>
 				<tr class="trHeight20">
 					<th class="thWidth20">Test 1</th>
@@ -363,7 +363,7 @@
 
 			<br>
 
-			<table>
+			<table class="testTable">
 				<tr>
 					<th class="thWidth20" rowspan="2">Name</th>
 					<td>Jill</td>
@@ -379,6 +379,111 @@
 					<td>50</td>
 				</tr>
 			</table>
+		</div>
+
+		<!-- Lists -->
+		<div>
+			<h1>Lists</h1>
+			<h2>Unordered list:</h2>
+			<ul>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+			<h2>Other different markers:</h2>
+			<ul>
+				<li>Circle:</li>
+				<ul style="list-style-type: circle;">
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ul>
+				<li>Square:</li>
+				<ul style="list-style-type: square;">
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ul>
+				<li>None:</li>
+				<ul style="list-style-type: none;">
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+				</ul>
+			</ul>
+			<h2>Horizontal list:</h2>
+			<ul class="horizontalTestUL">
+				<li class="horizontalTestLI"><a href="#home">Home</a></li>
+				<li class="horizontalTestLI"><a href="#news">News</a></li>
+				<li class="horizontalTestLI"><a href="#contact">Contact</a></li>
+				<li class="horizontalTestLI"><a href="#about">About</a></li>
+			</ul>
+
+			<h2>Ordered list:</h2>
+			<ol>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ol>
+			<table>
+				<tr>
+					<th class="thWidth20 thHeigth40px">Numbers</th>
+					<th class="thWidth20 thHeigth40px">Uppercase Letters</th>
+					<th class="thWidth20 thHeigth40px">Lowercase Letters</th>
+					<th class="thWidth20 thHeigth40px">Uppercase Roman Numbers</th>
+					<th class="thWidth20 thHeigth40px">Lowercase Roman Numbers</th>
+				</tr>
+				<tr>
+					<td>
+						<ol type="1" style="margin: 30px;">
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+							<li>Sugar</li>
+						</ol>
+					</td>
+					<td>
+						<ol type="A" style="margin: 30px;">
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+							<li>Sugar</li>
+						</ol>
+					</td>
+					<td>
+						<ol type="a" style="margin: 30px;">
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+							<li>Sugar</li>
+						</ol>
+					</td>
+					<td>
+						<ol type="I" style="margin: 30px;">
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+							<li>Sugar</li>
+						</ol>
+					</td>
+					<td>
+						<ol type="i" style="margin: 30px;">
+							<li>Coffee</li>
+							<li>Tea</li>
+							<li>Milk</li>
+							<li>Sugar</li>
+						</ol>
+					</td>
+				</tr>
+			</table>
+
+			<h2>Decription list:</h2>
+			<dl>
+				<dt>Coffee</dt>
+				<dd>- black hot drink</dd>
+				<dt>Milk</dt>
+				<dd>- white cold drink</dd>
+			</dl>
 		</div>
 
 	</body>

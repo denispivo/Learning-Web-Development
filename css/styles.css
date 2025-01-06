@@ -23,7 +23,7 @@ hr {
 
 table, th, tr, td {
 	border: 2px solid #dddddd;
-	/* border-collapse: collapse; */
+	border-collapse: collapse;
 }
 
 table {
@@ -108,4 +108,13 @@ caption{
 
 .horizontalTestLI a:hover {
 	background-color: #111111;
+}
+
+.orderedListDIV {
+	text-align: center;
+}
+
+.orderedListTest {
+	text-align: left; 
+	display: inline-block;
 }

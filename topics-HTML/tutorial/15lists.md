@@ -5,7 +5,7 @@
 - [Beginning Lists](#beginning-lists)
 - [Unordered Lists](#unordered-lists)
 - [Ordered Lists](#ordered-lists)
-- [Other Lists](#other-lists)
+- [Description Lists](#description-lists)
 
 ## Beginning Lists
 

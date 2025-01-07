@@ -21,6 +21,6 @@ Almost all upcoming topics are tested in the test.html file
 - [Page Title](/topics-HTML/tutorial/13page_title.md)
 - [Tables](/topics-HTML/tutorial/14tables.md)
 - [Lists](/topics-HTML/tutorial/15lists.md)
-- []()
+- [Block and Inline](/topics-HTML/tutorial/16block_and_inline.md)
 
 [go back to REDME.md](/README.md)

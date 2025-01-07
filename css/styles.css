@@ -36,7 +36,7 @@ table {
 }
 
 caption{
-	text-align: left;
+	text-align: center;
 }
 
 .testTable tr:nth-child(even) {

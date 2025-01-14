@@ -11,7 +11,7 @@ Starting with HTML and basics of CSS.
 
 ## Previews
 
-Preview the test.html [here](https://html-preview.github.io/?url=https://github.com/denispivo/Learning-Web-Development/blob/master/test.html).
+Preview the test.html [here](https://html-preview.github.io/?url=https://github.com/denispivo/Learning-Web-Development/blob/master/html/test.html).
 
 ## Usefull Links:
 
